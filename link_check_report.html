@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>リンク切れ確認レポート - 地域子育て支援拠点</title>
+<style>
+  body { font-family: 'Hiragino Sans', 'Meiryo', sans-serif; max-width: 1100px; margin: 0 auto; padding: 20px; background: #f8f9fa; }
+  h1 { color: #2c5282; border-bottom: 3px solid #4299e1; padding-bottom: 10px; font-size: 1.4em; }
+  h2 { color: #2d3748; margin-top: 30px; font-size: 1.2em; }
+  .source { font-size: 0.9em; color: #666; margin-bottom: 20px; }
+  .source a { color: #4299e1; }
+  table { width: 100%; border-collapse: collapse; margin: 15px 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  th { background: #4299e1; color: white; padding: 10px 12px; text-align: left; font-size: 0.9em; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e2e8f0; font-size: 0.85em; vertical-align: top; }
+  tr:hover { background: #f0f7ff; }
+  .ok { color: #38a169; font-weight: bold; }
+  .ng { color: #e53e3e; font-weight: bold; }
+  .warn { color: #d69e2e; font-weight: bold; }
+  .status-badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+  .status-ok { background: #c6f6d5; color: #22543d; }
+  .status-ng { background: #fed7d7; color: #742a2a; }
+  .status-new { background: #bee3f8; color: #2a4365; }
+  .summary { background: white; padding: 15px 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+  .summary-item { text-align: center; padding: 10px; }
+  .summary-num { font-size: 2em; font-weight: bold; }
+  .summary-label { font-size: 0.85em; color: #666; }
+  a { color: #4299e1; text-decoration: none; word-break: break-all; }
+  a:hover { text-decoration: underline; }
+  .note { background: #fffff0; border-left: 4px solid #d69e2e; padding: 10px 15px; margin: 10px 0; font-size: 0.9em; }
+  .arrow { color: #e53e3e; font-weight: bold; }
+  .timestamp { text-align: right; color: #999; font-size: 0.8em; margin-top: 30px; }
+</style>
+</head>
+<body>
+
+<h1>🔗 リンク切れ確認レポート<br>「身近な場所にある『地域子育て支援拠点』を探してみよう！」</h1>
+
+<div class="source">
+  対象ページ：<a href="https://kosodatehiroba.com/sprt-project#a03" target="_blank">https://kosodatehiroba.com/sprt-project#a03</a><br>
+  NPO法人子育てひろば全国連絡協議会サイト内「地域子育て支援拠点のご紹介」セクション
+</div>
+
+<div class="summary">
+  <h2 style="margin-top:0">📊 チェック結果サマリー</h2>
+  <div class="summary-grid">
+    <div class="summary-item">
+      <div class="summary-num ok">33</div>
+      <div class="summary-label">✅ 正常（200 OK）</div>
+    </div>
+    <div class="summary-item">
+      <div class="summary-num ng">4</div>
+      <div class="summary-label">❌ リンク切れ（404）</div>
+    </div>
+    <div class="summary-item">
+      <div class="summary-num" style="color:#4299e1">37</div>
+      <div class="summary-label">📋 チェック対象リンク総数</div>
+    </div>
+  </div>
+</div>
+
+<h2>❌ リンク切れ一覧（4件）</h2>
+
+<table>
+  <tr><th>都道府県</th><th>種別</th><th>状態</th><th>リンク切れURL</th><th>代替URL（調査結果）</th></tr>
+  <tr>
+    <td><strong>埼玉県</strong></td>
+    <td>拠点一覧PDF</td>
+    <td><span class="status-badge status-ng">404</span></td>
+    <td><a href="https://www.pref.saitama.lg.jp/documents/20190/5kyoten.pdf">5kyoten.pdf</a></td>
+    <td><span class="status-badge status-new">代替あり</span><br>
+      <a href="https://www.pref.saitama.lg.jp/documents/20190/7kyoten.pdf">7kyoten.pdf</a><br>
+      <small>令和7年4月1日現在（192KB）</small>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>千葉県</strong></td>
+    <td>掲載先</td>
+    <td><span class="status-badge status-ng">404</span></td>
+    <td><a href="https://www.pref.chiba.lg.jp/kosodate/opendata/opendata-kyotenn.html">opendata-kyotenn.html</a></td>
+    <td><span class="status-badge status-ng">代替なし</span><br>
+      <small>千葉県サイトリニューアルにより削除済み。<br>サイト内の「<a href="https://www.pref.chiba.lg.jp/kosodate/sougou/kyoten.html">地域子育て支援拠点事業について</a>」のリンクも404。<br>千葉県への問い合わせが必要。</small>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>岐阜県</strong></td>
+    <td>拠点一覧PDF</td>
+    <td><span class="status-badge status-ng">404</span></td>
+    <td><a href="https://www.pref.gifu.lg.jp/uploaded/attachment/402707.pdf">attachment/402707.pdf</a></td>
+    <td><span class="status-badge status-new">代替あり</span><br>
+      <a href="https://www.pref.gifu.lg.jp/uploaded/attachment/457024.pdf">attachment/457024.pdf</a><br>
+      <small>令和7年4月1日現在（455KB）</small>
+    </td>
+  </tr>
+  <tr>
+    <td><strong>鹿児島県</strong></td>
+    <td>拠点一覧PDF</td>
+    <td><span class="status-badge status-ng">404</span></td>
+    <td><a href="https://www.pref.kagoshima.jp/ae32/documents/86775_20240625151007-1.pdf">86775_20240625..pdf</a></td>
+    <td><span class="status-badge status-new">代替あり</span><br>
+      <a href="https://www.pref.kagoshima.jp/ae32/documents/86775_20250819155728-1.pdf">86775_20250819..pdf</a><br>
+      <small>令和7年6月1日現在（283KB）</small>
+    </td>
+  </tr>
+</table>
+
+<h2>✅ 正常リンク一覧（33件）</h2>
+
+<table>
+  <tr><th>#</th><th>地域</th><th>都道府県</th><th>種別</th><th>状態</th><th>リンクテキスト / URL</th></tr>
+  <tr><td>1</td><td rowspan="2">北海道・東北</td><td>北海道</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.hokkaido.lg.jp/hf/kms/ikuji/index.html">結婚、妊娠・出産、育児総合ポータルサイト「ハグクム」</a></td></tr>
+  <tr><td>2</td><td>青森県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="http://www.apio.pref.aomori.jp/kodomo2011/sien_center.html">青森県子ども家庭支援センター 地域における総合支援</a></td></tr>
+  <tr><td>3</td><td></td><td>岩手県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://i-land.pref.iwate.jp/">子育て応援ポータルサイト「いわて子育てiらんど」</a></td></tr>
+  <tr><td>4</td><td></td><td>秋田県</td><td>拠点一覧</td><td><span class="ok">200</span></td><td><a href="https://common3.pref.akita.lg.jp/kosodate/uploads/contents/pages_0000004152_00/241201_%E5%AD%90%E8%82%B2%E3%81%A6%E6%94%AF%E6%8F%B4%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E4%B8%80%E8%A6%A7.pdf">子育て支援センター 一覧（PDF）</a></td></tr>
+  <tr><td>5</td><td></td><td>福島県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.fukushima.lg.jp/sec/21035b/kyoten-ichiran.html">地域子育て支援拠点一覧</a></td></tr>
+  <tr><td>6</td><td rowspan="6">関東</td><td>群馬県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.gunma.jp/page/3712.html">地域子育て支援拠点一覧</a></td></tr>
+  <tr><td>7</td><td>栃木県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://tocopo.pref.tochigi.lg.jp/">子育て支援ポータルサイト「とこぽ」</a></td></tr>
+  <tr><td>8</td><td>埼玉県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.saitama.lg.jp/b0616/kyoten.html">地域子育て支援拠点</a></td></tr>
+  <tr><td>9</td><td>東京都</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.fukushi.metro.tokyo.lg.jp/kodomo//kosodate/hiroba.html">子育てひろば（地域子育て支援拠点）</a></td></tr>
+  <tr><td>10</td><td>神奈川県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://c.rakuraku.or.jp/">子育て支援情報サービスかながわ</a></td></tr>
+  <tr><td>11</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>12</td><td rowspan="2">甲信越・北陸</td><td>福井県</td><td>拠点一覧</td><td><span class="ok">200</span></td><td><a href="https://www.pref.fukui.lg.jp/doc/kodomo/asobiba_d/fil/siensenta.pdf">子育て支援センター一覧（PDF）</a></td></tr>
+  <tr><td>13</td><td>長野県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.nagano.lg.jp/kyoiku/shien/shien/kosodate/index.html">子育て事業</a></td></tr>
+  <tr><td>14</td><td rowspan="5">東海</td><td>静岡県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.fujisancco.pref.shizuoka.jp/map/m_list.php?category2=12">「ふじさんっこ子育てナビ」地域子育て支援拠点</a></td></tr>
+  <tr><td>15</td><td>岐阜県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.gifu.lg.jp/page/6603.html">保育・子育て支援 地域子育て支援拠点</a></td></tr>
+  <tr><td>16</td><td>愛知県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.aichi.jp/soshiki/kosodate/0000034462.html">地域子育て支援拠点</a></td></tr>
+  <tr><td>17</td><td>三重県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.mie.lg.jp/D1KODOMO/000117784.htm">「子どもスマイルネット」地域子育て支援拠点事業</a></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>18</td><td rowspan="5">近畿</td><td>和歌山県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.wakayama.lg.jp/prefg/040200/kosodateshienjigyo.html">子育て支援事業の実施状況の公表について</a></td></tr>
+  <tr><td>19</td><td>奈良県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.nara.jp/56056.htm">親子の交流拠点：地域子育て支援拠点事業</a></td></tr>
+  <tr><td>20</td><td>京都府</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.kyoto.jp/kosodate/ouen_19shisetsu04.html">地域子育て支援拠点[子育て支援情報 未来っ子ひろば]</a></td></tr>
+  <tr><td>21</td><td>大阪府</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://osaka-pass.jp/">子育て・結婚応援パスポート</a></td></tr>
+  <tr><td>22</td><td>兵庫県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://web.pref.hyogo.lg.jp/kf11/hw10_000000060.html">地域子育て支援拠点事業</a></td></tr>
+  <tr><td>23</td><td rowspan="5">中国・四国</td><td>岡山県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.okayama.jp/page/488473.html">ももっこステーション／地域子育て支援拠点</a></td></tr>
+  <tr><td>24</td><td>広島県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.ikuchan.or.jp/navi/page02.html">「イクちゃんネット」</a></td></tr>
+  <tr><td>25</td><td>鳥取県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.tottori.lg.jp/45283.htm">地域子育て支援センター・子育てひろば</a></td></tr>
+  <tr><td>26</td><td>島根県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.shimane.lg.jp/education/syoushika/syoushika/parntenv/kosodate-c.html">地域子育て支援センター一覧</a></td></tr>
+  <tr><td>27</td><td>山口県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.yamaguchi.lg.jp/soshiki/51/158197.html">地域子育て支援拠点</a></td></tr>
+  <tr><td>28</td><td rowspan="3">四国</td><td>愛媛県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.ehime.jp/page/7111.html">地域子育て支援拠点事業について</a></td></tr>
+  <tr><td>29</td><td>徳島県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.tokushima.lg.jp/hagukumi/facilities/chiikikosodate/">「とくしまはぐくみネット」地域子育て支援拠点</a></td></tr>
+  <tr><td>30</td><td>高知県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.premanet.pref.kochi.lg.jp/support_center/#cate_map">地域子育て支援センター エリアマップ・一覧</a></td></tr>
+  <tr><td>31</td><td rowspan="5">九州・沖縄</td><td>福岡県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://kazoku.pref.fukuoka.lg.jp/child/institutions/index?master_institution_type_id%5B20%5D=20">「子育て応援広場」施設・サークル情報</a></td></tr>
+  <tr><td>32</td><td>長崎県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kosodateshien-shoshikataisaku/kodomo-shisetsu/kosodate-kyoten/">地域子育て支援拠点</a></td></tr>
+  <tr><td>33</td><td>熊本県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.hapimon.jp/kiji0033821/index.html">「hapiモン」地域子育て支援拠点施設一覧</a></td></tr>
+  <tr><td>34</td><td>鹿児島県</td><td>掲載先</td><td><span class="ok">200</span></td><td><a href="https://www.pref.kagoshima.jp/ae32/tiikikosodatesienkyoten.html">地域子育て支援拠点について</a></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+
+<div class="note">
+  <strong>⚠️ 補足事項</strong>
+  <ul>
+    <li>上記リンクは全てHTTPステータスコードに加え、ページ内容のソフト404チェック（リダイレクト先がエラーページでないか）も実施済みです。</li>
+    <li>千葉県については、県公式サイト内の「地域子育て支援拠点事業について」ページ自体も404を返しており、サイトリニューアル等で構造が変更された可能性があります。千葉県子育て支援課への直接問い合わせをお勧めします。</li>
+    <li>埼玉県・岐阜県・鹿児島県の拠点一覧PDFは、各県が新しいバージョンをアップロードしており、掲載先ページから最新PDFへのリンクが確認できています。</li>
+  </ul>
+</div>
+
+<div class="timestamp">チェック実施日時：2026年2月22日</div>
+
+</body>
+</html>
