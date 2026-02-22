@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>全国 地域子育て支援拠点 一覧</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Hiragino Sans', 'Meiryo', sans-serif; background: #f0f4f8; color: #2d3748; }
+.header { background: linear-gradient(135deg, #4299e1, #667eea); color: white; padding: 20px; text-align: center; }
+.header h1 { font-size: 1.5em; margin-bottom: 5px; }
+.header p { font-size: 0.9em; opacity: 0.9; }
+.controls { background: white; padding: 15px 20px; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.controls-inner { max-width: 1200px; margin: 0 auto; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.controls select, .controls input { padding: 8px 12px; border: 1px solid #cbd5e0; border-radius: 6px; font-size: 0.9em; }
+.controls select { min-width: 150px; }
+.controls input[type=search] { flex: 1; min-width: 200px; }
+.count { font-size: 0.85em; color: #718096; white-space: nowrap; }
+.stats { max-width: 1200px; margin: 15px auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 6px; padding: 0 15px; }
+.stat-item { background: white; padding: 8px 10px; border-radius: 6px; text-align: center; cursor: pointer; border: 2px solid transparent; transition: all 0.2s; font-size: 0.8em; }
+.stat-item:hover { border-color: #4299e1; }
+.stat-item.active { border-color: #4299e1; background: #ebf8ff; }
+.stat-item .num { font-size: 1.3em; font-weight: bold; color: #2b6cb0; }
+.stat-item .label { color: #718096; font-size: 0.85em; }
+.stat-item.no-data { opacity: 0.5; }
+.stat-item.no-data .num { color: #a0aec0; }
+.container { max-width: 1200px; margin: 0 auto; padding: 15px; }
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+th { background: #4a5568; color: white; padding: 10px 12px; text-align: left; font-size: 0.85em; position: sticky; top: 52px; z-index: 10; cursor: pointer; }
+th:hover { background: #2d3748; }
+td { padding: 8px 12px; border-bottom: 1px solid #e2e8f0; font-size: 0.82em; vertical-align: top; }
+tr:hover { background: #f7fafc; }
+.pref-col { white-space: nowrap; font-weight: 500; color: #4a5568; }
+.city-col { white-space: nowrap; }
+.name-col { font-weight: 500; color: #2b6cb0; min-width: 200px; }
+.addr-col { min-width: 250px; color: #4a5568; }
+.phone-col { white-space: nowrap; }
+.note-col { font-size: 0.8em; color: #718096; max-width: 200px; }
+.download-bar { background: white; padding: 10px 20px; text-align: center; border-top: 1px solid #e2e8f0; }
+.download-bar a { display: inline-block; background: #4299e1; color: white; padding: 8px 20px; border-radius: 6px; text-decoration: none; margin: 5px; font-size: 0.9em; }
+.download-bar a:hover { background: #3182ce; }
+.no-data-note { background: #fffbeb; border-left: 4px solid #f6ad55; padding: 10px 15px; margin: 10px 0; font-size: 0.85em; border-radius: 0 6px 6px 0; }
+.footer { text-align: center; padding: 20px; font-size: 0.8em; color: #a0aec0; }
+@media (max-width: 768px) {
+  th, td { padding: 6px 8px; font-size: 0.75em; }
+  .controls-inner { flex-direction: column; }
+  .stats { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); gap: 4px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏠 全国 地域子育て支援拠点 一覧</h1>
+  <p>千葉県を除く46都道府県（43都道府県にデータあり） | <span id="total-count"></span>件</p>
+</div>
+
+<div class="controls">
+  <div class="controls-inner">
+    <select id="pref-filter">
+      <option value="">全都道府県</option>
+    </select>
+    <select id="city-filter">
+      <option value="">全市区町村</option>
+    </select>
+    <input type="search" id="search" placeholder="🔍 拠点名・住所・電話番号で検索...">
+    <span class="count" id="filter-count"></span>
+  </div>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="no-data-note" id="no-data-note" style="max-width:1200px;margin:10px auto;">
+  ⚠️ <strong>茨城県・富山県・沖縄県</strong>は県レベルの一覧が未公開のため掲載なし。<strong>大阪府</strong>は大阪市のみ掲載（他市町村は各自治体へ要問合せ）。<strong>千葉県</strong>は元サイトのリンク切れにより対象外。
+</div>
+
+<div class="container">
+  <table id="main-table">
+    <thead>
+      <tr>
+        <th data-col="pref">都道府県</th>
+        <th data-col="city">自治体名</th>
+        <th data-col="name">拠点名</th>
+        <th data-col="addr">住所</th>
+        <th data-col="phone">電話番号</th>
+        <th data-col="note">備考</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<div class="download-bar">
+  <a href="kosodate_kyoten_all.csv" download>📥 CSV ダウンロード</a>
+  <a href="kosodate_kyoten_all.json" download>📥 JSON ダウンロード</a>
+</div>
+
+<div class="footer">
+  データ出典: 各都道府県公式サイト | 作成日: 2026年2月22日<br>
+  対象ページ: <a href="https://kosodatehiroba.com/sprt-project#a03" style="color:#4299e1">NPO法人子育てひろば全国連絡協議会「地域子育て支援拠点のご紹介」</a>
+</div>
+
+<script>
+let DATA = [];
+let currentSort = { col: '', asc: true };
+
+fetch('kosodate_kyoten_all.json')
+  .then(r => r.json())
+  .then(data => {
+    DATA = data;
+    document.getElementById('total-count').textContent = data.length;
+    buildPrefFilter();
+    buildStats();
+    renderTable(data);
+  });
+
+function buildPrefFilter() {
+  const sel = document.getElementById('pref-filter');
+  const prefs = [...new Set(DATA.map(d => d.pref))];
+  prefs.forEach(p => {
+    const opt = document.createElement('option');
+    opt.value = p; opt.textContent = p;
+    sel.appendChild(opt);
+  });
+}
+
+function buildStats() {
+  const container = document.getElementById('stats');
+  const counts = {};
+  DATA.forEach(d => counts[d.pref] = (counts[d.pref] || 0) + 1);
+  const allPrefs = ['北海道','青森県','岩手県','宮城県','秋田県','山形県','福島県','茨城県','栃木県','群馬県','埼玉県','東京都','神奈川県','新潟県','富山県','石川県','福井県','山梨県','長野県','岐阜県','静岡県','愛知県','三重県','滋賀県','京都府','大阪府','兵庫県','奈良県','和歌山県','鳥取県','島根県','岡山県','広島県','山口県','徳島県','香川県','愛媛県','高知県','福岡県','佐賀県','長崎県','熊本県','大分県','宮崎県','鹿児島県','沖縄県'];
+  allPrefs.forEach(p => {
+    const div = document.createElement('div');
+    const c = counts[p] || 0;
+    div.className = 'stat-item' + (c === 0 ? ' no-data' : '');
+    div.innerHTML = `<div class="num">${c || '-'}</div><div class="label">${p}</div>`;
+    div.onclick = () => {
+      document.getElementById('pref-filter').value = c > 0 ? p : '';
+      applyFilters();
+      document.querySelectorAll('.stat-item').forEach(s => s.classList.remove('active'));
+      if (c > 0) div.classList.add('active');
+    };
+    container.appendChild(div);
+  });
+}
+
+function applyFilters() {
+  const pref = document.getElementById('pref-filter').value;
+  const city = document.getElementById('city-filter').value;
+  const q = document.getElementById('search').value.toLowerCase();
+  
+  let filtered = DATA;
+  if (pref) filtered = filtered.filter(d => d.pref === pref);
+  if (city) filtered = filtered.filter(d => d.city === city);
+  if (q) filtered = filtered.filter(d => 
+    (d.name + d.addr + d.phone + d.city).toLowerCase().includes(q)
+  );
+  
+  // Update city filter options
+  if (pref && !city) {
+    const citySel = document.getElementById('city-filter');
+    const cities = [...new Set(filtered.map(d => d.city))].sort();
+    citySel.innerHTML = '<option value="">全市区町村</option>';
+    cities.forEach(c => {
+      if (!c) return;
+      const opt = document.createElement('option');
+      opt.value = c; opt.textContent = c;
+      citySel.appendChild(opt);
+    });
+  }
+  
+  renderTable(filtered);
+}
+
+function renderTable(data) {
+  const tbody = document.getElementById('tbody');
+  const max = 2000;
+  const show = data.slice(0, max);
+  
+  tbody.innerHTML = show.map(d => `<tr>
+    <td class="pref-col">${esc(d.pref)}</td>
+    <td class="city-col">${esc(d.city)}</td>
+    <td class="name-col">${esc(d.name)}</td>
+    <td class="addr-col">${esc(d.addr)}</td>
+    <td class="phone-col">${d.phone ? '<a href="tel:' + d.phone + '">' + esc(d.phone) + '</a>' : ''}</td>
+    <td class="note-col">${esc(d.note)}</td>
+  </tr>`).join('');
+  
+  const countEl = document.getElementById('filter-count');
+  countEl.textContent = data.length === DATA.length ? 
+    `全 ${data.length} 件` : 
+    `${data.length} 件 / ${DATA.length} 件中`;
+  if (data.length > max) countEl.textContent += ` (先頭${max}件表示)`;
+}
+
+function esc(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+document.getElementById('pref-filter').addEventListener('change', () => {
+  document.getElementById('city-filter').value = '';
+  applyFilters();
+});
+document.getElementById('city-filter').addEventListener('change', applyFilters);
+document.getElementById('search').addEventListener('input', applyFilters);
+
+// Column sort
+document.querySelectorAll('th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (currentSort.col === col) currentSort.asc = !currentSort.asc;
+    else { currentSort.col = col; currentSort.asc = true; }
+    DATA.sort((a, b) => {
+      const va = (a[col] || '').toLowerCase();
+      const vb = (b[col] || '').toLowerCase();
+      return currentSort.asc ? va.localeCompare(vb) : vb.localeCompare(va);
+    });
+    applyFilters();
+  });
+});
+</script>
+</body>
+</html>
