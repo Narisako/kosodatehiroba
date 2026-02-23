@@ -25,8 +25,8 @@ body { font-family: 'Hiragino Sans', 'Meiryo', sans-serif; background: #f0f4f8; 
 .stat-item.no-data { opacity: 0.5; }
 .stat-item.no-data .num { color: #a0aec0; }
 .container { max-width: 1200px; margin: 0 auto; padding: 15px; }
-table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
-th { background: #4a5568; color: white; padding: 10px 12px; text-align: left; font-size: 0.85em; position: sticky; top: 52px; z-index: 10; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+th { background: #4a5568; color: white; padding: 10px 12px; text-align: left; font-size: 0.85em; position: sticky; top: 0; z-index: 10; cursor: pointer; }
 th:hover { background: #2d3748; }
 td { padding: 8px 12px; border-bottom: 1px solid #e2e8f0; font-size: 0.82em; vertical-align: top; }
 tr:hover { background: #f7fafc; }
@@ -204,6 +204,18 @@ document.getElementById('pref-filter').addEventListener('change', () => {
 });
 document.getElementById('city-filter').addEventListener('change', applyFilters);
 document.getElementById('search').addEventListener('input', applyFilters);
+
+// Adjust sticky header top based on controls height
+function adjustStickyTop() {
+  const controls = document.querySelector('.controls');
+  const ths = document.querySelectorAll('th');
+  if (controls && ths.length) {
+    const h = controls.offsetHeight;
+    ths.forEach(th => th.style.top = h + 'px');
+  }
+}
+adjustStickyTop();
+window.addEventListener('resize', adjustStickyTop);
 
 // Column sort
 document.querySelectorAll('th[data-col]').forEach(th => {
