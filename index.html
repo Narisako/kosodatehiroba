@@ -104,7 +104,7 @@ tr:hover { background: #f7fafc; }
 let DATA = [];
 let currentSort = { col: '', asc: true };
 
-fetch('kosodate_kyoten_all.json')
+fetch('kosodate_kyoten_all.json?v=' + Date.now())
   .then(r => r.json())
   .then(data => {
     DATA = data;
