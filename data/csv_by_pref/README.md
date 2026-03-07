@@ -4,7 +4,12 @@
 
 ## CSV形式
 
-各ファイルのカラム: `pref, city, name, addr, phone, note`（UTF-8 BOM付き）
+各ファイルのカラム: `pref, city, name, zip, addr, phone, note`（UTF-8 BOM付き）
+
+### 郵便番号（zip）補完について
+
+- 2026-03-07: 日本郵便「KEN_ALL.CSV（郵便番号データ）」を用いた決定的な住所照合で、`zip` 欠損を一括補完。
+- 補完不能行（住所曖昧・町域が複数ZIPに跨る・住所形式不整合）は `zip_unresolved_rows.tsv` に記録。
 
 ## こども家庭庁 令和6年度実施状況との比較
 
