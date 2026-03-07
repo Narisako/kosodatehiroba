@@ -11,6 +11,7 @@ with open('/home/exedev/kosodate_kyoten_all.csv', 'r', encoding='utf-8-sig') as 
             'pref': row.get('pref', row.get('都道府県', '')),
             'city': row.get('city', row.get('自治体名', '')),
             'name': row.get('name', row.get('拠点名', '')),
+            'zip': row.get('zip', ''),
             'addr': row.get('addr', row.get('住所', '')),
             'phone': row.get('phone', row.get('電話番号', '')),
             'note': row.get('note', row.get('備考', ''))
