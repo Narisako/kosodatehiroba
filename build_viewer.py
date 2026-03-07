@@ -28,3 +28,15 @@ with open('/home/exedev/kosodate_kyoten_all.json', 'w', encoding='utf-8') as f:
     f.write(json_data)
 
 print(f"JSON created: {len(rows)} rows, {len(json_data)} bytes")
+
+# Generate about.html from README
+try:
+    import markdown
+    with open('/home/exedev/data/csv_by_pref/README.md', 'r') as f:
+        md = f.read()
+    html = markdown.markdown(md, extensions=['tables', 'fenced_code'])
+    with open('/home/exedev/about.html', 'w') as f:
+        f.write(html)
+    print(f"about.html created: {len(html)} bytes")
+except ImportError:
+    print("Warning: markdown module not found, skipping about.html")

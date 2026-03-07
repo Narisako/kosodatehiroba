@@ -1,0 +1,672 @@
+<h1>都道府県別 地域子育て支援拠点データ</h1>
+<p>全47都道府県 / 7,654件（令和6〜7年度時点のデータを中心に収集）</p>
+<h2>CSV形式</h2>
+<p>各ファイルのカラム: <code>pref, city, name, addr, phone, note</code>（UTF-8 BOM付き）</p>
+<h2>こども家庭庁 令和6年度実施状況との比較</h2>
+<table>
+<thead>
+<tr>
+<th>都道府県</th>
+<th style="text-align: right;">CFA総計</th>
+<th style="text-align: right;">当データ</th>
+<th style="text-align: right;">カバー率</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>北海道</td>
+<td style="text-align: right;">387</td>
+<td style="text-align: right;">420</td>
+<td style="text-align: right;">109%</td>
+<td></td>
+</tr>
+<tr>
+<td>青森県</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">102%</td>
+<td></td>
+</tr>
+<tr>
+<td>岩手県</td>
+<td style="text-align: right;">84</td>
+<td style="text-align: right;">106</td>
+<td style="text-align: right;">126%</td>
+<td>⚠️ 住所なし70件・電話なし66件（県一覧に住所電話なし）</td>
+</tr>
+<tr>
+<td>宮城県</td>
+<td style="text-align: right;">186</td>
+<td style="text-align: right;">77</td>
+<td style="text-align: right;">41%</td>
+<td>△ 七ヶ宿町を追記（2026-03-06）</td>
+</tr>
+<tr>
+<td>秋田県</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">79</td>
+<td style="text-align: right;">139%</td>
+<td></td>
+</tr>
+<tr>
+<td>山形県</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">112</td>
+<td style="text-align: right;">101%</td>
+<td></td>
+</tr>
+<tr>
+<td>福島県</td>
+<td style="text-align: right;">122</td>
+<td style="text-align: right;">132</td>
+<td style="text-align: right;">108%</td>
+<td></td>
+</tr>
+<tr>
+<td>茨城県</td>
+<td style="text-align: right;">280</td>
+<td style="text-align: right;">180</td>
+<td style="text-align: right;">64%</td>
+<td>△ 9町村は担当窓口ベース（施設個票は継続調査）</td>
+</tr>
+<tr>
+<td>栃木県</td>
+<td style="text-align: right;">115</td>
+<td style="text-align: right;">110</td>
+<td style="text-align: right;">96%</td>
+<td></td>
+</tr>
+<tr>
+<td>群馬県</td>
+<td style="text-align: right;">163</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">99%</td>
+<td></td>
+</tr>
+<tr>
+<td>埼玉県</td>
+<td style="text-align: right;">512</td>
+<td style="text-align: right;">525</td>
+<td style="text-align: right;">103%</td>
+<td></td>
+</tr>
+<tr>
+<td>千葉県</td>
+<td style="text-align: right;">335</td>
+<td style="text-align: right;">121</td>
+<td style="text-align: right;">36%</td>
+<td>❌ 42市町村が未掲載（下記参照）</td>
+</tr>
+<tr>
+<td>東京都</td>
+<td style="text-align: right;">701</td>
+<td style="text-align: right;">987</td>
+<td style="text-align: right;">141%</td>
+<td></td>
+</tr>
+<tr>
+<td>神奈川県</td>
+<td style="text-align: right;">315</td>
+<td style="text-align: right;">299</td>
+<td style="text-align: right;">95%</td>
+<td></td>
+</tr>
+<tr>
+<td>新潟県</td>
+<td style="text-align: right;">230</td>
+<td style="text-align: right;">225</td>
+<td style="text-align: right;">98%</td>
+<td></td>
+</tr>
+<tr>
+<td>富山県</td>
+<td style="text-align: right;">82</td>
+<td style="text-align: right;">73</td>
+<td style="text-align: right;">89%</td>
+<td></td>
+</tr>
+<tr>
+<td>石川県</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">116%</td>
+<td></td>
+</tr>
+<tr>
+<td>福井県</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">58</td>
+<td style="text-align: right;">98%</td>
+<td></td>
+</tr>
+<tr>
+<td>山梨県</td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">93</td>
+<td style="text-align: right;">126%</td>
+<td></td>
+</tr>
+<tr>
+<td>長野県</td>
+<td style="text-align: right;">172</td>
+<td style="text-align: right;">172</td>
+<td style="text-align: right;">100%</td>
+<td></td>
+</tr>
+<tr>
+<td>岐阜県</td>
+<td style="text-align: right;">170</td>
+<td style="text-align: right;">170</td>
+<td style="text-align: right;">100%</td>
+<td></td>
+</tr>
+<tr>
+<td>静岡県</td>
+<td style="text-align: right;">262</td>
+<td style="text-align: right;">262</td>
+<td style="text-align: right;">100%</td>
+<td></td>
+</tr>
+<tr>
+<td>愛知県</td>
+<td style="text-align: right;">410</td>
+<td style="text-align: right;">410</td>
+<td style="text-align: right;">100%</td>
+<td></td>
+</tr>
+<tr>
+<td>三重県</td>
+<td style="text-align: right;">196</td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">63%</td>
+<td>⚠️ 御浜町・紀宝町を追記（2026-03-06）</td>
+</tr>
+<tr>
+<td>滋賀県</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">354%</td>
+<td></td>
+</tr>
+<tr>
+<td>京都府</td>
+<td style="text-align: right;">271</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">32%</td>
+<td>△ 京都市を追記（2026-03-06）</td>
+</tr>
+<tr>
+<td>大阪府</td>
+<td style="text-align: right;">472</td>
+<td style="text-align: right;">185</td>
+<td style="text-align: right;">39%</td>
+<td>△ 42市町村のうち27市町を施設個票へ置換（2026-03-07、残15市町は継続調査）</td>
+</tr>
+<tr>
+<td>兵庫県</td>
+<td style="text-align: right;">356</td>
+<td style="text-align: right;">346</td>
+<td style="text-align: right;">97%</td>
+<td>⚠️ 電話番号が全件なし（ソースに情報なし）</td>
+</tr>
+<tr>
+<td>奈良県</td>
+<td style="text-align: right;">86</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">110%</td>
+<td></td>
+</tr>
+<tr>
+<td>和歌山県</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">112%</td>
+<td></td>
+</tr>
+<tr>
+<td>鳥取県</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">100%</td>
+<td></td>
+</tr>
+<tr>
+<td>島根県</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">126%</td>
+<td></td>
+</tr>
+<tr>
+<td>岡山県</td>
+<td style="text-align: right;">151</td>
+<td style="text-align: right;">195</td>
+<td style="text-align: right;">129%</td>
+<td>⚠️ 電話番号が全件なし（ソースに情報なし）</td>
+</tr>
+<tr>
+<td>広島県</td>
+<td style="text-align: right;">175</td>
+<td style="text-align: right;">92</td>
+<td style="text-align: right;">53%</td>
+<td>⚠️ 大崎上島町を追記（2026-03-06）、住所なし14件</td>
+</tr>
+<tr>
+<td>山口県</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">148</td>
+<td style="text-align: right;">126%</td>
+<td>⚠️ 電話番号が全件なし（ソースに情報なし）</td>
+</tr>
+<tr>
+<td>徳島県</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: right;">88</td>
+<td style="text-align: right;">133%</td>
+<td></td>
+</tr>
+<tr>
+<td>香川県</td>
+<td style="text-align: right;">97</td>
+<td style="text-align: right;">242</td>
+<td style="text-align: right;">249%</td>
+<td></td>
+</tr>
+<tr>
+<td>愛媛県</td>
+<td style="text-align: right;">94</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">65%</td>
+<td>△ 松山市・上島町を追記（2026-03-06）</td>
+</tr>
+<tr>
+<td>高知県</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">64</td>
+<td style="text-align: right;">142%</td>
+<td></td>
+</tr>
+<tr>
+<td>福岡県</td>
+<td style="text-align: right;">155</td>
+<td style="text-align: right;">147</td>
+<td style="text-align: right;">95%</td>
+<td></td>
+</tr>
+<tr>
+<td>佐賀県</td>
+<td style="text-align: right;">72</td>
+<td style="text-align: right;">65</td>
+<td style="text-align: right;">90%</td>
+<td></td>
+</tr>
+<tr>
+<td>長崎県</td>
+<td style="text-align: right;">116</td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">101%</td>
+<td></td>
+</tr>
+<tr>
+<td>熊本県</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">118</td>
+<td style="text-align: right;">99%</td>
+<td></td>
+</tr>
+<tr>
+<td>大分県</td>
+<td style="text-align: right;">78</td>
+<td style="text-align: right;">71</td>
+<td style="text-align: right;">91%</td>
+<td>⚠️ 住所なし18件</td>
+</tr>
+<tr>
+<td>宮崎県</td>
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">63</td>
+<td style="text-align: right;">83%</td>
+<td></td>
+</tr>
+<tr>
+<td>鹿児島県</td>
+<td style="text-align: right;">119</td>
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">85%</td>
+<td></td>
+</tr>
+<tr>
+<td>沖縄県</td>
+<td style="text-align: right;">95</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">32%</td>
+<td>△ 石垣市・浦添市・糸満市・豊見城市・名護市・南城市・南風原町・八重瀬町を追記（2026-03-07）</td>
+</tr>
+</tbody>
+</table>
+<p>※ CFA総計 = こども家庭庁 令和6年度 地域子育て支援拠点事業 交付決定ベース
+※ カバー率が100%超の県は、データソースの時期差・集計方法の違いによる</p>
+<h2>未掲載市町村の詳細</h2>
+<h3>千葉県（42市町村が未掲載）</h3>
+<p>県の一覧ページが削除されたため主要12市のみ個別収集。以下が未掲載：</p>
+<p>木更津市、茂原市、成田市、東金市、習志野市、勝浦市、市原市、我孫子市、鴨川市、鎌ケ谷市、君津市、富津市、浦安市、四街道市、袖ケ浦市、八街市、印西市、白井市、富里市、南房総市、匝瑳市、香取市、山武市、いすみ市、大網白里市、酒々井町、栄町、神崎町、多古町、東庄町、九十九里町、芝山町、横芝光町、一宮町、睦沢町、長生村、白子町、長柄町、長南町、大多喜町、御宿町、鋸南町</p>
+<h3>大阪府</h3>
+<p>未掲載市町村は解消（2026-03-07）。
+※ 42市町村の窓口ベース追記分について、2026-03-07に大阪府オープンデータ「地域子育て支援拠点一覧」で<strong>27市町</strong>を施設個票（名称/住所/電話）へ置換。
+※ <strong>残15市町</strong>（千早赤阪村、堺市、大阪狭山市、太子町、岬町、岸和田市、島本町、摂津市、枚方市、柏原市、河南町、能勢町、豊中市、豊能町、門真市）は同オープンデータ未収載のため、市町村一次ソースで継続調査。</p>
+<h3>沖縄県（26市町村が未掲載）</h3>
+<p>県の一覧が未公開。那覇市・沖縄市・中城村に加え、石垣市・浦添市・糸満市・豊見城市・名護市・南城市・南風原町・八重瀬町を個別収集。以下が未掲載：</p>
+<p>宜野湾市、うるま市、宮古島市、国頭村、大宜味村、東村、今帰仁村、本部町、恩納村、宜野座村、金武町、伊江村、読谷村、嘉手納町、北谷町、北中城村、西原町、与那原町、渡嘉敷村、座間味村、粟国村、渡名喜村、久米島町、多良間村、竹富町、与那国町</p>
+<h3>茨城県</h3>
+<p>未掲載市町村は解消（2026-03-07）。
+※ 9町村（大洗町、城里町、東海村、美浦村、河内町、八千代町、五霞町、境町、利根町）は引き続き「いばらきKids Club 市町村担当窓口」由来。
+※ 施設個票（名称/住所/電話）が自治体横断で取得できる一次ソース未確認のため、各市町村公式ページで継続調査。</p>
+<h2>データソース（全都道府県監査: 2026-03-07 UTC）</h2>
+<ul>
+<li>監査方針: 県公式（<code>pref.*.lg.jp</code> 等）または自治体公式（<code>*.lg.jp</code>）を優先。民間サイト由来の県は継続調査対象として明記。</li>
+<li>記載の「更新時期」はソース側に明記がある場合のみ記載（R=令和）。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>都道府県</th>
+<th>主ソース（URL/ドメイン）</th>
+<th>更新時期/版</th>
+<th>監査メモ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>北海道</td>
+<td>北海道庁（<code>pref.hokkaido.lg.jp</code>）子育て支援センター情報</td>
+<td>県公開情報ベース</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>青森県</td>
+<td>あおもり子育て応援サイト（<code>apio.pref.aomori.jp</code>）＋各市町村公式（<code>*.lg.jp</code>）</td>
+<td>ポータル＋個別補完</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>岩手県</td>
+<td>各市町村公式（<code>*.lg.jp</code>）個別収集</td>
+<td>市町村ページ依存</td>
+<td>有効（住所/電話欠損が多い）</td>
+</tr>
+<tr>
+<td>宮城県</td>
+<td>みやぎっこ広場（県系ポータル）＋各市町村公式</td>
+<td>ポータル＋個別補完</td>
+<td>有効（網羅は継続強化）</td>
+</tr>
+<tr>
+<td>秋田県</td>
+<td>秋田県公式PDF（<code>pref.akita.lg.jp</code>）</td>
+<td>県PDF</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>山形県</td>
+<td>山形県公式PDF（<code>pref.yamagata.jp</code>）</td>
+<td>R7.4</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>福島県</td>
+<td>福島県公式PDF（<code>pref.fukushima.lg.jp</code>、地域別）</td>
+<td>県PDF</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>茨城県</td>
+<td>各市町村公式＋いばらきKids Club（<code>ibaraki-kids.com</code>）担当窓口</td>
+<td>個別＋窓口情報</td>
+<td>要継続調査（9町村は窓口情報ベース）</td>
+</tr>
+<tr>
+<td>栃木県</td>
+<td>とちぎ子育てポータル（<code>tocopo.pref.tochigi.lg.jp</code>）</td>
+<td>県系HTML</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>群馬県</td>
+<td>ぐんま子育て応援サイト（<code>pref.gunma.jp</code> 配下/県系）</td>
+<td>県系ポータル</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>埼玉県</td>
+<td>埼玉県公式（<code>pref.saitama.lg.jp</code>）地域子育て支援拠点一覧</td>
+<td>県公開一覧</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>千葉県</td>
+<td>各市公式（<code>*.lg.jp</code>）個別収集</td>
+<td>県一覧ページ削除後運用</td>
+<td>要継続調査（42市町村未掲載）</td>
+</tr>
+<tr>
+<td>東京都</td>
+<td>東京都福祉局（<code>fukushi.metro.tokyo.lg.jp</code>）施設一覧PDF</td>
+<td>R7年度</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>神奈川県</td>
+<td>子育て支援情報サービスかながわ（<code>c.rakuraku.or.jp</code>、県公式）</td>
+<td>現行公開ページ</td>
+<td>有効（県公式ポータル一次ソースへ置換）</td>
+</tr>
+<tr>
+<td>新潟県</td>
+<td>新潟県公式PDF（<code>pref.niigata.lg.jp</code>）</td>
+<td>R7.4</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>富山県</td>
+<td>富山県公式PDF（<code>pref.toyama.jp</code>）</td>
+<td>県公開一覧</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>石川県</td>
+<td>いしかわ子育て支援財団 おやコミnet（<code>oyacomi.net</code>）PDF</td>
+<td>2025年版</td>
+<td>有効（準公式）</td>
+</tr>
+<tr>
+<td>福井県</td>
+<td>福井県公式PDF（<code>pref.fukui.lg.jp</code>）</td>
+<td>県PDF</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>山梨県</td>
+<td>やまなし子育てネット（県系、<code>pref.yamanashi.jp</code>/関連）</td>
+<td>施設検索</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>長野県</td>
+<td>チアフルながの（県系ポータル）</td>
+<td>ポータル掲載</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>岐阜県</td>
+<td>岐阜県公式PDF（<code>pref.gifu.lg.jp</code>）</td>
+<td>県PDF</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>静岡県</td>
+<td>ふじさんっこ子育てナビ（県系、<code>shizuoka-kosodate.com</code>）</td>
+<td>34市町村反映</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>愛知県</td>
+<td>愛知県公式PDF（<code>pref.aichi.jp</code>）3区分</td>
+<td>R7.4</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>三重県</td>
+<td>三重県公式「子どもスマイルネット」地域子育て支援拠点（<code>pref.mie.lg.jp</code>）</td>
+<td>現行公開ページ</td>
+<td>有効（県公式一次ソースへ更新）。ただし当CSVは124件でCFA196件に未達、未収載分の追加調査が必要</td>
+</tr>
+<tr>
+<td>滋賀県</td>
+<td>滋賀県公式（<code>pref.shiga.lg.jp</code>）Excel</td>
+<td>県Excel</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>京都府</td>
+<td>京都府公式「未来っ子ひろば」地域子育て支援拠点（<code>pref.kyoto.jp</code>）＋京都市公式</td>
+<td>現行公開ページ</td>
+<td>有効（府公式一次ソースへ更新）。ただし当CSVは88件でCFA271件に未達、未収載分の追加調査が必要</td>
+</tr>
+<tr>
+<td>大阪府</td>
+<td>大阪市公式PDF＋大阪府公式窓口ページ（<code>pref.osaka.lg.jp</code>）</td>
+<td>R7.10（大阪市PDF）</td>
+<td>要継続調査（42市町村は窓口情報）</td>
+</tr>
+<tr>
+<td>兵庫県</td>
+<td>兵庫県公式Excel（<code>pref.hyogo.lg.jp</code>）2種</td>
+<td>R7.6</td>
+<td>有効（電話欠損はソース仕様）</td>
+</tr>
+<tr>
+<td>奈良県</td>
+<td>奈良県公式PDF（<code>pref.nara.jp</code>）</td>
+<td>県PDF</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>和歌山県</td>
+<td>和歌山県公式PDF（<code>pref.wakayama.lg.jp</code>）</td>
+<td>R7.1</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>鳥取県</td>
+<td>鳥取県公式（<code>pref.tottori.lg.jp</code>）地域別HTML</td>
+<td>県HTML</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>島根県</td>
+<td>島根県公式（<code>pref.shimane.lg.jp</code>）HTML</td>
+<td>県HTML</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>岡山県</td>
+<td>岡山県公式（<code>pref.okayama.jp</code>）HTML複数ページ</td>
+<td>県HTML</td>
+<td>有効（電話欠損はソース仕様）</td>
+</tr>
+<tr>
+<td>広島県</td>
+<td>各市町村公式（<code>*.lg.jp</code>）個別収集</td>
+<td>個別補完運用</td>
+<td>有効（住所欠損あり/継続補完）</td>
+</tr>
+<tr>
+<td>山口県</td>
+<td>山口県公式PDF（<code>pref.yamaguchi.lg.jp</code>）</td>
+<td>県PDF</td>
+<td>有効（電話欠損はソース仕様）</td>
+</tr>
+<tr>
+<td>徳島県</td>
+<td>徳島県公式（<code>pref.tokushima.lg.jp</code>）HTML</td>
+<td>県HTML</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>香川県</td>
+<td>Colorful+（<code>colorfulplus.pref.kagawa.lg.jp</code>）API</td>
+<td>API取得</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>愛媛県</td>
+<td>愛媛県公式HTML＋松山市公式＋上島町例規</td>
+<td>県/市町補完</td>
+<td>有効（継続補完）</td>
+</tr>
+<tr>
+<td>高知県</td>
+<td>高知県公式（<code>pref.kochi.lg.jp</code>）施設個票ページ</td>
+<td>64施設個票</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>福岡県</td>
+<td>福岡県公式（<code>pref.fukuoka.lg.jp</code>）</td>
+<td>県公開ページ</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>佐賀県</td>
+<td>さが子育て応援サイト（県系ポータル）</td>
+<td>施設検索</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>長崎県</td>
+<td>長崎県公式PDF（<code>pref.nagasaki.jp</code>）</td>
+<td>R6〜R7</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>熊本県</td>
+<td>熊本県公式（<code>pref.kumamoto.jp</code>）</td>
+<td>県公開ページ</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>大分県</td>
+<td>大分県公式（<code>pref.oita.jp</code>）HTML</td>
+<td>県HTML</td>
+<td>有効（住所欠損あり）</td>
+</tr>
+<tr>
+<td>宮崎県</td>
+<td>宮崎県子育て支援ポータル（県系）</td>
+<td>HTML</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>鹿児島県</td>
+<td>鹿児島県公式PDF（<code>pref.kagoshima.jp</code>）</td>
+<td>県PDF</td>
+<td>有効</td>
+</tr>
+<tr>
+<td>沖縄県</td>
+<td>那覇市・沖縄市・中城村・石垣市・浦添市・糸満市・豊見城市・名護市・南城市・南風原町・八重瀬町の各公式（<code>*.lg.jp</code>）</td>
+<td>個別収集</td>
+<td>要継続調査（県一覧未公開、26市町村未掲載）</td>
+</tr>
+</tbody>
+</table>
+<h3>監査で要フォローとした県（要点）</h3>
+<ul>
+<li><strong>千葉県</strong>: 県の統合一覧が削除済みで、市単位収集に依存。未掲載42市町村の一次ソース探索が必要。  </li>
+<li><strong>三重県</strong>: 県公式一次ソースへ更新済みだが、当CSVは124件でCFA196件に未達。未収載分の一次ソース補完が必要。  </li>
+<li><strong>京都府</strong>: 府公式一次ソースへ更新済みだが、当CSVは88件でCFA271件に未達。未収載分の一次ソース補完が必要。  </li>
+<li><strong>大阪府</strong>: 42市町村分は「入所相談窓口」由来で拠点個票ではないため、精緻化が必要。  </li>
+<li><strong>茨城県</strong>: 9町村分は担当窓口由来で、拠点名・住所・電話の厳密化が必要。  </li>
+<li><strong>沖縄県</strong>: 県統合一覧未公開。個別収集運用のため未掲載26市町村の補完が必要。</li>
+</ul>

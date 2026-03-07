@@ -41,6 +41,25 @@ tr:hover { background: #f7fafc; }
 .download-bar a:hover { background: #3182ce; }
 .no-data-note { background: #fffbeb; border-left: 4px solid #f6ad55; padding: 10px 15px; margin: 10px 0; font-size: 0.85em; border-radius: 0 6px 6px 0; }
 .footer { text-align: center; padding: 20px; font-size: 0.8em; color: #a0aec0; }
+.about-link { position: absolute; right: 20px; top: 50%; transform: translateY(-50%); color: rgba(255,255,255,0.85); text-decoration: none; font-size: 0.9em; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.4); border-radius: 20px; transition: all 0.2s; }
+.about-link:hover { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.7); color: white; }
+.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; justify-content: center; align-items: flex-start; padding: 30px 15px; overflow-y: auto; }
+.modal-overlay.open { display: flex; }
+.modal { background: white; border-radius: 12px; max-width: 960px; width: 100%; max-height: 90vh; overflow-y: auto; padding: 30px 35px; position: relative; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+.modal-close { position: sticky; top: 0; float: right; background: #e2e8f0; border: none; width: 36px; height: 36px; border-radius: 50%; font-size: 1.2em; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; }
+.modal-close:hover { background: #cbd5e0; }
+.modal h1 { font-size: 1.4em; color: #2d3748; margin: 0 0 15px; padding-right: 40px; }
+.modal h2 { font-size: 1.15em; color: #4a5568; margin: 25px 0 10px; padding-bottom: 6px; border-bottom: 2px solid #e2e8f0; }
+.modal h3 { font-size: 1em; color: #4a5568; margin: 20px 0 8px; }
+.modal p { margin: 8px 0; line-height: 1.7; font-size: 0.9em; color: #4a5568; }
+.modal ul, .modal li { font-size: 0.9em; color: #4a5568; line-height: 1.6; }
+.modal table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.82em; }
+.modal th { background: #f7fafc; color: #4a5568; padding: 8px 10px; text-align: left; border-bottom: 2px solid #e2e8f0; position: static; cursor: default; font-weight: 600; }
+.modal th:hover { background: #f7fafc; }
+.modal td { padding: 7px 10px; border-bottom: 1px solid #edf2f7; color: #4a5568; vertical-align: top; }
+.modal tr:hover { background: #f7fafc; }
+.modal code { background: #edf2f7; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+@media (max-width: 768px) { .modal { padding: 20px; } .about-link { right: 10px; font-size: 0.8em; padding: 4px 10px; } }
 @media (max-width: 768px) {
   th, td { padding: 6px 8px; font-size: 0.75em; }
   .controls-inner { flex-direction: column; }
@@ -50,9 +69,17 @@ tr:hover { background: #f7fafc; }
 </head>
 <body>
 
-<div class="header">
+<div class="header" style="position:relative;">
   <h1>🏠 全国 地域子育て支援拠点 一覧</h1>
   <p>47都道府県（全47都道府県にデータあり） | <span id="total-count"></span>件</p>
+  <a href="#" class="about-link" onclick="document.getElementById('about-modal').classList.add('open');return false;">About</a>
+</div>
+
+<div class="modal-overlay" id="about-modal">
+  <div class="modal">
+    <button class="modal-close" onclick="document.getElementById('about-modal').classList.remove('open');">✕</button>
+    <div id="about-content">読み込み中...</div>
+  </div>
 </div>
 
 <div class="controls">
@@ -204,6 +231,21 @@ document.getElementById('pref-filter').addEventListener('change', () => {
 });
 document.getElementById('city-filter').addEventListener('change', applyFilters);
 document.getElementById('search').addEventListener('input', applyFilters);
+
+// Load About content
+fetch('about.html').then(r => r.text()).then(html => {
+  document.getElementById('about-content').innerHTML = html;
+}).catch(() => {
+  document.getElementById('about-content').innerHTML = '<p>読み込みに失敗しました。<a href="https://github.com/Narisako/kosodatehiroba/blob/main/data/csv_by_pref/README.md" target="_blank">GitHubで確認</a></p>';
+});
+// Close modal on overlay click
+document.getElementById('about-modal').addEventListener('click', function(e) {
+  if (e.target === this) this.classList.remove('open');
+});
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') document.getElementById('about-modal').classList.remove('open');
+});
 
 // Adjust sticky header top based on controls height
 function adjustStickyTop() {
