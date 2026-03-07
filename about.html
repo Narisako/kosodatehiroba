@@ -1,7 +1,12 @@
 <h1>都道府県別 地域子育て支援拠点データ</h1>
 <p>全47都道府県 / 7,654件（令和6〜7年度時点のデータを中心に収集）</p>
 <h2>CSV形式</h2>
-<p>各ファイルのカラム: <code>pref, city, name, addr, phone, note</code>（UTF-8 BOM付き）</p>
+<p>各ファイルのカラム: <code>pref, city, name, zip, addr, phone, note</code>（UTF-8 BOM付き）</p>
+<h3>郵便番号（zip）補完について</h3>
+<ul>
+<li>2026-03-07: 日本郵便「KEN_ALL.CSV（郵便番号データ）」を用いた決定的な住所照合で、<code>zip</code> 欠損を一括補完。</li>
+<li>補完不能行（住所曖昧・町域が複数ZIPに跨る・住所形式不整合）は <code>zip_unresolved_rows.tsv</code> に記録。</li>
+</ul>
 <h2>こども家庭庁 令和6年度実施状況との比較</h2>
 <table>
 <thead>

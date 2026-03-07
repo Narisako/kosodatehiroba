@@ -210,7 +210,7 @@ function renderTable(data) {
     <td class="pref-col">${esc(d.pref)}</td>
     <td class="city-col">${esc(d.city)}</td>
     <td class="name-col">${esc(d.name)}</td>
-    <td class="zip-col">${esc(d.zip||'')}</td>
+    <td class="zip-col">${fmtZip(d.zip||'')}</td>
     <td class="addr-col">${esc(d.addr)}</td>
     <td class="phone-col">${d.phone ? '<a href="tel:' + d.phone + '">' + esc(d.phone) + '</a>' : ''}</td>
     <td class="note-col">${esc(d.note)}</td>
@@ -223,6 +223,12 @@ function renderTable(data) {
   if (data.length > max) countEl.textContent += ` (先頭${max}件表示)`;
 }
 
+function fmtZip(z) {
+  if (!z) return '';
+  z = z.replace(/[^0-9]/g, '');
+  if (z.length === 7) return z.slice(0,3) + '-' + z.slice(3);
+  return z;
+}
 function esc(s) {
   if (!s) return '';
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
