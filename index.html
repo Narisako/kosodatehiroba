@@ -33,6 +33,7 @@ tr:hover { background: #f7fafc; }
 .pref-col { white-space: nowrap; font-weight: 500; color: #4a5568; }
 .city-col { white-space: nowrap; }
 .name-col { font-weight: 500; color: #2b6cb0; min-width: 200px; }
+.zip-col { white-space: nowrap; font-size: 0.82em; color: #718096; }
 .addr-col { min-width: 250px; color: #4a5568; }
 .phone-col { white-space: nowrap; }
 .note-col { font-size: 0.8em; color: #718096; max-width: 200px; }
@@ -108,6 +109,7 @@ tr:hover { background: #f7fafc; }
         <th data-col="pref">都道府県</th>
         <th data-col="city">自治体名</th>
         <th data-col="name">拠点名</th>
+        <th data-col="zip">〒</th>
         <th data-col="addr">住所</th>
         <th data-col="phone">電話番号</th>
         <th data-col="note">備考</th>
@@ -180,7 +182,7 @@ function applyFilters() {
   if (pref) filtered = filtered.filter(d => d.pref === pref);
   if (city) filtered = filtered.filter(d => d.city === city);
   if (q) filtered = filtered.filter(d => 
-    (d.name + d.addr + d.phone + d.city).toLowerCase().includes(q)
+    (d.name + d.addr + d.phone + d.city + (d.zip||'')).toLowerCase().includes(q)
   );
   
   // Update city filter options
@@ -208,6 +210,7 @@ function renderTable(data) {
     <td class="pref-col">${esc(d.pref)}</td>
     <td class="city-col">${esc(d.city)}</td>
     <td class="name-col">${esc(d.name)}</td>
+    <td class="zip-col">${esc(d.zip||'')}</td>
     <td class="addr-col">${esc(d.addr)}</td>
     <td class="phone-col">${d.phone ? '<a href="tel:' + d.phone + '">' + esc(d.phone) + '</a>' : ''}</td>
     <td class="note-col">${esc(d.note)}</td>
