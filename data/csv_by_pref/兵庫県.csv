@@ -1,22 +1,21 @@
 ﻿pref,city,name,zip,addr,phone,note
-兵庫県,たつの市,たつの市中央児童館,6794167,たつの市龍野町富永1005番地1（たつの市福祉会館内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6890.html
-兵庫県,たつの市,子育て支援センターつくしんぼの館,6711613,たつの市揖保川町二塚384-1,,https://maaya.or.jp/pages/56/
-兵庫県,たつの市,御津子育てつどいの広場,6711342,たつの市御津町朝臣38番地1（御津やすらぎ福祉会館内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
-兵庫県,たつの市,揖保川子育てつどいの広場,6711631,たつの市揖保川町山津屋19番地1（揖保川公民館内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
-兵庫県,たつの市,新宮子育てつどいの広場,6794313,たつの市新宮町新宮437番地（新宮こども園内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
-兵庫県,たつの市,龍野子育てつどいの広場,6794167,たつの市龍野町富永410番地2（はつらつセンター内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
+兵庫県,たつの市,たつの市中央児童館,6794167,たつの市龍野町富永1005番地1 （たつの市福祉会館内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6890.html
+兵庫県,たつの市,子育て支援センター　つくしんぼの館,6711613,たつの市揖保川町二塚385-1,,https://maaya.or.jp/pages/56/
+兵庫県,たつの市,御津子育てつどいの広場,6711342,たつの市御津町朝臣38番地1 （御津やすらぎ福祉会館内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
+兵庫県,たつの市,揖保川子育てつどいの広場,6711631,たつの市揖保川町山津屋19番地1 （揖保川公民館内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
+兵庫県,たつの市,新宮子育てつどいの広場,6794313,たつの市新宮町新宮437番地 （新宮こども園内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
+兵庫県,たつの市,龍野子育てつどいの広場,6794167,たつの市龍野町富永410番地2 （はつらつセンター内）,,www.city.tatsuno.lg.jp/kosodate-site/mokuteki/shisetsu/6887.html
 兵庫県,三木市,三木市吉川児童館,6731115,三木市吉川町大沢412（吉川健康福祉センター内）,,https://www.city.miki.lg.jp/site/yokawa/
 兵庫県,三木市,三木市立児童センター,6730433,三木市福井1933-12（三木市立教育センター内）,,https://www.city.miki.lg.jp/site/jidou/
 兵庫県,三田市,ウッディ子育て交流ひろば,6691321,三田市けやき台1-4-1(ウッディタウン市民センター２階プレイルーム）,,https://www.city.sanda.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/10115.html
 兵庫県,三田市,三田市多世代交流館,6691546,三田市弥生が丘1-1-2,,https://www.city.sanda.lg.jp/kosodate_kyoiku/kosodate_shisetsu/koryukan/10862.html
 兵庫県,三田市,地域子育て支援センター,6691342,三田市四ツ辻１４３０湊川短期大学内,,https://www.city.sanda.lg.jp/kosodate_kyoiku/kosodate_shisetsu/4/10117.html
 兵庫県,三田市,駅前子育て交流ひろば,6691528,三田市駅前町2-1(まちづくり協働センター６階幼児室）,,https://www.city.sanda.lg.jp/kosodate_kyoiku/kosodate_shisetsu/1/10114.html
-兵庫県,三田市,駒ケ谷運動公園子育て交流ひろば,6691324,三田市ゆりのき台１－４４,,
 兵庫県,上郡町,上郡町子育て学習センター,6781277,赤穂郡上郡町苔縄86番地1,,https://www.town.kamigori.hyogo.jp/soshiki/kenkofukushika/shisetsuosagasu/1592.html
 兵庫県,"丹場
 篠山市",にしき子育てふれあいセンター,6692734,丹波篠山市宮田216（西紀老人福祉センター内）,,https://www.city.tambasasayama.lg.jp/soshikikarasagasu/kosodatekikaku/kosodatehureaicenter/nishikikonda/index.html
 兵庫県,"丹波
-篠山市",おとわの森子育てママフィールドプティプリ,6692214,丹波篠山市味間新315,,https://petit-prix-city-sasayama.jimdofree.com/
+篠山市",おとわの森子育てママフィールド　プティプリ,6692214,丹波篠山市味間新315,,https://petit-prix-city-sasayama.jimdofree.com/
 兵庫県,"丹波
 篠山市",こんだ子育てふれあいセンター,6692153,丹波篠山市今田町今田新田14-1（今田支所2階）,,https://www.city.tambasasayama.lg.jp/soshikikarasagasu/kosodatekikaku/kosodatehureaicenter/nishikikonda/index.html
 兵庫県,"丹波
@@ -25,54 +24,47 @@
 篠山市",たんなん子育てふれあいセンター,6692205,丹波篠山市網掛429　丹南商工会館１階,,https://www.city.tambasasayama.lg.jp/kosodate_kyoiku/ibentoodekake/23887.html
 兵庫県,"丹波
 篠山市",丹波篠山市立丹南児童館,6692213,丹波篠山市中野28,,https://www.city.tambasasayama.lg.jp/soshikikarasagasu/jinkensuishinka/hureaikantannannjidoukan/tannannjidoukan/index.html
-兵庫県,丹波市,丹波市立山南子育て学習センター,6693198,丹波市山南町谷川1110番地（山南住民センター内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
-兵庫県,丹波市,丹波市立市島子育て学習センター,6694322,丹波市市島町上田814番地（ライフピアいちじま内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
-兵庫県,丹波市,丹波市立春日子育て学習センター,6694141,丹波市春日町黒井496番地2（春日住民センター内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
+兵庫県,丹波市,丹波市立山南子育て学習センター,6693131,丹波市山南町谷川1110番地 （山南住民センター内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
+兵庫県,丹波市,丹波市立市島子育て学習センター,6694322,丹波市市島町上田814番地 （ライフピアいちじま内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
+兵庫県,丹波市,丹波市立春日子育て学習センター,6694141,丹波市春日町黒井496番地2 （春日住民センター内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
 兵庫県,丹波市,丹波市立柏原子育て学習センター（ゆめわあく柏原）,6693305,丹波市柏原町下小倉605番地,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
-兵庫県,丹波市,丹波市立氷上子育て学習センター,6693467,丹波市氷上町本郷300番地（市民プラザ内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
-兵庫県,丹波市,丹波市立青垣子育て学習センター,6693811,丹波市青垣町佐治114番地（青垣住民センター内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
-兵庫県,伊丹市,いたみむっくむっくルーム,6640895,伊丹市宮ノ前2丁目2番2号,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,さくらだいこども園むっくむっくルーム,6640023,伊丹市中野西4丁目92　伊丹市立さくらだいこども園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,ひだまりひろば,6640871,伊丹市堀池2丁目2番20号　伊丹市立人権啓発センター（ふらっと）・児童館内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,むっくむっくルーム,6640014,伊丹市広畑3丁目1番地　伊丹市立地域福祉総合センター（いたみいきいきプラザ）内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,ゆうぎしつ,6640007,伊丹市北野4丁目30番地　伊丹市立北部学習センター（きららホール）内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,わかばこども園むっくむっくルーム,6640855,伊丹市御願塚6丁目1番5号　伊丹市立わかばこども園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,神津こども園むっくむっくルーム,6640842,伊丹市森本１丁目８番地２５　伊丹市立神津こども園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
-兵庫県,伊丹市,西伊丹むっくむっくルーム,6640026,伊丹市寺本5-373　学校法人西伊丹学園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,丹波市,丹波市立氷上子育て学習センター,6693467,丹波市氷上町本郷300番地 （市民プラザ内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
+兵庫県,丹波市,丹波市立青垣子育て学習センター,6693811,丹波市青垣町佐治114番地 （青垣住民センター内）,,https://www.city.tamba.lg.jp/kosodate_kyoiku/kosodate_shisetsu/2/6327.html
+兵庫県,伊丹市,いたみむっくむっくルーム,6640895,伊丹市宮ノ前2丁目2番2号 伊丹商工プラザ5階　男女共同参画センター（ここいろ）内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,さくらだいこども園むっくむっくルーム,6640023,伊丹市中野西4丁目92 伊丹市立さくらだいこども園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,ひだまりひろば,6640871,伊丹市堀池2丁目2番20号 伊丹市立人権啓発センター（ふらっと）・児童館内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,むっくむっくルーム,6640014,伊丹市広畑3丁目1番地 伊丹市立地域福祉総合センター（いたみいきいきプラザ）内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,ゆうぎしつ,6640007,伊丹市北野4丁目30番地 伊丹市立北部学習センター（きららホール）内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,わかばこども園むっくむっくルーム,6640855,伊丹市御願塚6丁目1番5号 伊丹市立わかばこども園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,神津こども園むっくむっくルーム,6640842,伊丹市森本１丁目８番地２５ 伊丹市立神津こども園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
+兵庫県,伊丹市,西伊丹むっくむっくルーム,6640026,伊丹市寺本5-373 学校法人西伊丹学園西伊丹幼稚園内,,https://www.city.itami.lg.jp/SOSIKI/KODOMO/KOSODATE/KOSODATE_SIEN/1590726836975.html
 兵庫県,佐用町,さよう子育て支援センター,6795305,佐用郡佐用町長尾905番地9,,http://www.town.sayo.lg.jp/cms-sypher/www/section/detail.jsp?id=66
 兵庫県,加古川市,加古川市加古川駅南子育てプラザ,6750065,加古川市加古川町篠原町21番地の8（加古川ヤマトヤシキ7階）,,https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/kodomoseisaku/kosodateshien/1413445196890.html
 兵庫県,加古川市,加古川市東加古川子育てプラザ,6750115,加古川市平岡町一色797-295,,https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/kodomoseisaku/kosodateshien/1413437664699.html
-兵庫県,加東市,兵庫教育大学子育て支援ルームかとうGENKi,6731421,加東市山国2007番地109　兵庫教育大学やまくにプラザ1階,,https://www.hyogo-u.ac.jp/preken/genki/
-兵庫県,加東市,東条鯉こいランド,6731341,加東市南山1丁目4番地2　加東市南山活性化支援施設「Mina-Kuru」内,,http://www.city.kato.lg.jp/kurashi/kosodate/jidokan/1458108641803.html
+兵庫県,加東市,兵庫教育大学子育て支援ルーム　かとうGENKi,6731421,加東市山国2007番地109 兵庫教育大学やまくにプラザ1階,,https://www.hyogo-u.ac.jp/preken/genki/
+兵庫県,加東市,東条鯉こいランド,6731341,加東市南山1丁目4番地2 加東市南山活性化支援施設「Mina-Kuru」内,,http://www.city.kato.lg.jp/kurashi/kosodate/jidokan/1458108641803.html
 兵庫県,加東市,滝野児童館（きらら）,6790212,加東市下滝野1369番地2,,http://www.city.kato.lg.jp/kurashi/kosodate/jidokan/1458108455444.html
 兵庫県,加東市,社児童館「やしろこどものいえ」,6731423,加東市東古瀬477番地１,,http://www.city.kato.lg.jp/kurashi/kosodate/jidokan/1458108256760.html
-兵庫県,加西市,ぜんぼう子育て広場,6752213,加西市西笠原町178－115,,
 兵庫県,加西市,"ぜんぼう子育て広場
 （いちごクラブ）",6752213,加西市西笠原町178－115 （善坊こども園内）,,
-兵庫県,加西市,つどいの広場ぜんぼうキッズ,6752232,加西市戸田井町388-10,,https://www.city.kasai.hyogo.jp/soshiki/33/14415.html
-兵庫県,加西市,ねひめキッズ,6752303,加西市北条町古坂1072-14,,
+兵庫県,加西市,つどいの広場　ぜんぼうキッズ,6752232,加西市戸田井町388-10 （善坊公民館内）,,https://www.city.kasai.hyogo.jp/soshiki/33/14415.html
 兵庫県,加西市,愛の光キッズ,6752241,加西市段下町880番地の29 （認定愛の光こども園内）,,http://www.ainohikari.ac.jp/childrasing/
 兵庫県,南あわじ市,南あわじ市子育て学習・支援センター,6560427,南あわじ市榎列松田747番地3,,https://www.city.minamiawaji.hyogo.jp/site/yumerun/kosodategakushu.html
 兵庫県,多可町,多可町子育てふれあいセンター,6791114,多可郡多可町中区岸上224-17,,https://www.town.taka.lg.jp/kosodate/
 兵庫県,太子町,太子町子育て支援センター 「ひまはぴ」,6711575,揖保郡太子町佐用岡381番地1,,https://www.town.hyogo-taishi.lg.jp/soshikikarasagasu/kodomoegao/kosodatesisetu/index.html
-兵庫県,姫路市,すこやかひろば,6700943,姫路市市之郷1006番地8　すこやかセンター３階,,https://www.city.himeji.lg.jp/waku2child/0000000491.html
+兵庫県,姫路市,すこやかひろば,6700943,姫路市市之郷1006-8　すこやかセンター３階,,https://www.city.himeji.lg.jp/waku2child/0000000491.html
 兵庫県,姫路市,のびのび広場みらいえ,6700942,姫路市日出町三丁目3　こどもの未来健康支援センター（みらいえ）内,,https://www.city.himeji.lg.jp/waku2child/0000023838.html
-兵庫県,姫路市,ぱっそkids,6700955,姫路市安田三丁目1番地　姫路市総合福祉会館3階,,
 兵庫県,姫路市,やながせ保育園大津みやび野分園,6711146,姫路市大津区大津町1丁目31-111,,http://yanagase-hoikuen.jp/
 兵庫県,姫路市,わくわく広場いえしま,6720101,姫路市家島町真浦2137-1　家島事務所２階,,https://www.city.himeji.lg.jp/waku2child/0000013393.html
-兵庫県,姫路市,わくわく広場こうでら,6792163,姫路市香寺町土師396　香寺公民館内,,https://www.city.himeji.lg.jp/waku2child/0000013393.html
+兵庫県,姫路市,わくわく広場こうでら,6792163,姫路市香寺町土師396　香寺公民館２階,,https://www.city.himeji.lg.jp/waku2child/0000013393.html
 兵庫県,姫路市,わくわく広場やすとみ,6712401,姫路市安富町安志1151　安富事務所１階,,https://www.city.himeji.lg.jp/waku2child/0000013393.html
-兵庫県,姫路市,わくわく広場ゆめさき,6712134,姫路市夢前町菅生澗1384-1　菅生公民館内,,https://www.city.himeji.lg.jp/waku2child/0000013393.html
-兵庫県,姫路市,中央保育所,6700055,姫路市神子岡前一丁目11-29,,
+兵庫県,姫路市,わくわく広場ゆめさき,6712134,姫路市夢前町菅生澗1384-1　菅生公民館１階,,https://www.city.himeji.lg.jp/waku2child/0000013393.html
 兵庫県,姫路市,別所まるやまこども園,6710224,姫路市別所町佐土2丁目77,,https://www.maruyama-hoikuen.ed.jp/bessyo/about/
 兵庫県,姫路市,北つどいの広場,6792122,姫路市豊富町御蔭1110-3,,http://www.himeji-jdcsnk.info/kita/index.html
-兵庫県,姫路市,四郷和光保育所,6710224,姫路市四郷町見野880-1,,
 兵庫県,姫路市,城陽保育所,6700948,姫路市北条宮の町93,,https://www.city.himeji.lg.jp/waku2child/0000024036.html
-兵庫県,姫路市,大塩保育所,6710101,姫路市大塩町2077-5,,
-兵庫県,姫路市,姫路ひまわり保育園,6712202,姫路市北夢前台1丁目59,,https://himawarihome.or.jp/hoiku_himeji/top
+兵庫県,姫路市,姫路ひまわり保育園,,姫路市北夢前台1丁目59,,https://himawarihome.or.jp/hoiku_himeji/top
 兵庫県,姫路市,安室つどいの広場,6700081,姫路市田寺東二丁目7-13,,http://www.himeji-jdcsnk.info/yasumuro/index.html
 兵庫県,姫路市,広畑つどいの広場,6711116,姫路市広畑区正門通一丁目7-3,,https://www.himeji-jdcsnk.info/hirohata/
-兵庫県,姫路市,広西保育所,6711154,姫路市広畑区吾妻町二丁目9-1,,
 兵庫県,姫路市,星の子つどいの広場,6712222,姫路市青山1470-24,,https://ssl.himeji-hoshinoko.jp/
 兵庫県,姫路市,東つどいの広場,6710252,姫路市花田町加納原田813,,http://www.himeji-sfj.or.jp/publics/index/115/
 兵庫県,姫路市,東光つどいの広場,6700835,姫路市幸町99-1,,http://www.himeji-jdcsnk.info/toko/
@@ -80,24 +72,24 @@
 兵庫県,姫路市,灘つどいの広場,6728021,姫路市白浜町宇佐崎中二丁目520,,http://www.himeji-jdcsnk.info/nada/
 兵庫県,姫路市,網干つどいの広場,6711253,姫路市網干区垣内中町120,,http://www.himeji-jdcsnk.info/aboshi/
 兵庫県,姫路市,網干れんげ保育園,6711228,姫路市網干区坂出184,,http://aboshi-renge.jp/index.html
-兵庫県,姫路市,萩学園,6792123,姫路市豊富町豊富1528,,http://www.hagi.ed.jp/
+兵庫県,姫路市,萩学園,6792123,姫路市豊富町豊富1528-1,,http://www.hagi.ed.jp/
 兵庫県,姫路市,面白山つどいの広場,6700055,姫路市神子岡前三丁目8-1,,http://www.himeji-sfj.or.jp/publics/index/144/
 兵庫県,姫路市,飾磨つどいの広場,6728064,姫路市飾磨区細江2654,,http://www.himeji-sfj.or.jp/publics/index/143/
-兵庫県,姫路市,駅前すくすくひろば,6700927,姫路市駅前町188番地1　ピオレ姫路６階,,https://www.city.himeji.lg.jp/waku2child/0000018198.html
-兵庫県,宍粟市,一宮子育て支援センター,6714192,宍粟市一宮町安積1347番地3,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/ichinomiyahoken/tantojoho/itinomiyakosodate/itinomiyakosodate.html
-兵庫県,宍粟市,千種子育て支援センター,6713223,宍粟市千種町室1060番地1,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/chikusahoken/tantojoho/tikusakosodate/tikusakosodate.html
-兵庫県,宍粟市,山崎子育て支援センター,6712573,宍粟市山崎町今宿5番地15,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/kosodateshien/tantojoho/yamasakikosodatesiennsennta/yamasakikosodate.html
-兵庫県,宍粟市,波賀子育て支援センター,6714241,宍粟市波賀町安賀232番地1,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/hagahoken/tantojoho/hagakosodate/1547539005192.html
-兵庫県,宝塚市,きらきらひろば宝塚市子ども家庭支援センター,6650867,宝塚市売布東の町12番8号（フレミラ宝塚内）,,http://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html
-兵庫県,宝塚市,やまぼうし子育てひろば,6650874,宝塚市中筋7-82-3,,https://www.yamaboushi.jp/kosodate/index.html
-兵庫県,宝塚市,中筋児童館（中筋ひろば）,6650874,宝塚市中筋2-10-18,,https://swc-aiwakai.jp/child/nakasuji/
+兵庫県,姫路市,駅前すくすくひろば,6700927,姫路市駅前町188-1　ピオレ姫路６階,,https://www.city.himeji.lg.jp/waku2child/0000018198.html
+兵庫県,宍粟市,一宮子育て支援センター,6714131,宍粟市一宮町安積1347番地3 一宮市民協働センター・いちのぴあ内,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/ichinomiyahoken/tantojoho/itinomiyakosodate/itinomiyakosodate.html
+兵庫県,宍粟市,千種子育て支援センター,6713223,宍粟市千種町室1060番地1 保健福祉センター・エーガイヤちくさ内,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/chikusahoken/tantojoho/tikusakosodate/tikusakosodate.html
+兵庫県,宍粟市,山崎子育て支援センター,6712573,宍粟市山崎町今宿5番地15 宍粟市役所北庁舎３階子育て支援課内,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/kosodateshien/tantojoho/yamasakikosodatesiennsennta/yamasakikosodate.html
+兵庫県,宍粟市,波賀子育て支援センター,6714221,宍粟市波賀町上野257番地 波賀市民協働センター・はがてらす内,,https://www.city.shiso.lg.jp/soshiki/kenkofukushi/hagahoken/tantojoho/hagakosodate/1547539005192.html
+兵庫県,宝塚市,きらきらひろば　宝塚市子ども家庭支援センター,6650867,宝塚市売布東の町12番8号 （フレミラ宝塚内）,,http://www.city.takarazuka.hyogo.jp/kyoiku/odekake/1009340.html
+兵庫県,宝塚市,やまぼうし子育てひろば,,宝塚市中筋7-82-3,,https://www.yamaboushi.jp/kosodate/index.html
+兵庫県,宝塚市,中筋児童館（中筋ひろば）,,宝塚市中筋2-10-18,,https://swc-aiwakai.jp/child/nakasuji/
 兵庫県,宝塚市,地域子育てセンターすくすく,6650862,宝塚市今里町1番1号　宝塚市立米谷保育所内,,https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1038837/1000241.html
 兵庫県,宝塚市,地域子育てセンターすこやか,6650051,宝塚市高司1丁目4番32号　宝塚市立わかくさ保育所内,,https://www.city.takarazuka.hyogo.jp/kyoiku/gakkoshisetsu/1000105/1038837/1000242.html
 兵庫県,宝塚市,宝塚市立ひばり子ども館,6650807,宝塚市長尾台1-1-1,,https://kodomo-kan.com/
 兵庫県,宝塚市,宝塚市立中山台子ども館,6650877,宝塚市中山桜台2-2-5,,https://kodomo-kan.com/
 兵庫県,宝塚市,宝塚市立安倉児童館（安倉ひろば）,6650823,宝塚市安倉南1-2-1,,https://blog.goo.ne.jp/akrjdkn2002
 兵庫県,宝塚市,宝塚市立山本山手子ども館,6650887,宝塚市山手台東1-4-1,,https://kodomo-kan.com/
-兵庫県,宝塚市,宝塚市立西谷児童館（西谷ひろば）,6691211,宝塚市大原野字炭屋1-1（西谷ふれあい夢プラザ内）,,http://nisitanijidoukan.blogspot.com/
+兵庫県,宝塚市,宝塚市立西谷児童館（西谷ひろば）,6691211,宝塚市大原野字炭屋1-1 （西谷ふれあい夢プラザ内）,,http://nisitanijidoukan.blogspot.com/
 兵庫県,宝塚市,宝塚市立高司児童館（高司ひろば）,6650051,宝塚市高司4丁目4番24号,,https://www.tk-jidoukan.jp/
 兵庫県,宝塚市,御殿山児童館（御殿山ひろば）,6650841,宝塚市御殿山2-1-70,,http://www.seirei.or.jp/nurseryschool/gotenyama/jidokan/
 兵庫県,宝塚市,野上児童館（野上ひろば）,6650022,宝塚市野上2-3-38,,http://www.seirei.or.jp/nurseryschool/nogami/child-hall/index.html
@@ -106,7 +98,7 @@
 兵庫県,尼崎市,あみんぐステーション,,尼崎市潮江2-28-47,,https://www.aming-station.com/
 兵庫県,尼崎市,きらきら,6610982,尼崎市食満1-3-15,,http://www.eonet.ne.jp/~chirldren/profile3.html
 兵庫県,尼崎市,こんぺいとう,6610033,尼崎市南武庫之荘1-18-11-102,,http://r.goope.jp/amakmirai/free/hiroba-konpeito
-兵庫県,尼崎市,すこやかプラザ,6600052,尼崎市七松町1丁目3-1-502　（フェスタ立花南館5階）,,http://sukoyakaplaza.la.coocan.jp/
+兵庫県,尼崎市,すこやかプラザ,6600052,尼崎市七松町1丁目3-1-502 （フェスタ立花南館5階）,,http://sukoyakaplaza.la.coocan.jp/
 兵庫県,尼崎市,どろっぷす,6610043,尼崎市武庫元町2-12-1（フェルティ武庫元町205）,,http://r.goope.jp/amakmirai/free/hiroba-dorops
 兵庫県,尼崎市,のびのびステーション,6600811,尼崎市常光寺1-19-12,,http://www.amagasaki-nobinobi.com/index.html
 兵庫県,尼崎市,ひだまり,6610979,尼崎市上坂部3-21-1,,http://ponpon-hdmr.com/about-hidamari/
@@ -114,53 +106,50 @@
 兵庫県,尼崎市,まかろん,6600862,尼崎市開明町2-25,,http://r.goope.jp/amakmirai/free/macaron
 兵庫県,尼崎市,わいわいステーション,6610012,尼崎市南塚口町2-4-23（アラカサビル4階）,,https://yanchanko.com/waiwai/
 兵庫県,尼崎市,わらべ,6610953,尼崎市東園田町5-34-28,,http://bccweb.bai.ne.jp/warabe/
-兵庫県,川西市,こども・若者ステーションプレイルーム,6660017,川西市火打1-12-16,,http://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1007446.html
+兵庫県,川西市,こども・若者ステーション　プレイルーム,6660017,川西市火打1-12-16,,http://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1007446.html
 兵庫県,川西市,アステ市民プラザ子育て支援ルーム,6660033,川西市栄町25－1,,http://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1000711.html
 兵庫県,川西市,久代児童センター,6660024,川西市久代3-16-30,,http://www.k-shakyo.or.jp/jidokan/
 兵庫県,川西市,加茂こども園地域子育て支援ルーム「アップルかも」,6660025,川西市加茂3-13-22,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000647.html
-兵庫県,川西市,地域子育て支援センターキオラクラブ,6660115,川西市向陽台3-11-64（向陽台あすのこども園内）,,http://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1013073.html
-兵庫県,川西市,地域子育て支援センタータブリエ,6660002,川西市滝山町3-11（パステル保育園内）,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1013072.html
+兵庫県,川西市,地域子育て支援センター　キオラクラブ,6660115,川西市向陽台3-11-64（向陽台あすのこども園内）,,http://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1013073.html
+兵庫県,川西市,地域子育て支援センター　タブリエ,6660002,川西市滝山町3-11（パステル保育園内）,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1013072.html
 兵庫県,川西市,多田保育所地域子育て支援ルーム「アップルただ」,6660122,川西市東多田1-16-20,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000647.html
-兵庫県,川西市,子育て支援拠点TSUNAGARI,6660006,川西市萩原台西3－1－2－202（萩原壱番館2階）,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1012582.html
-兵庫県,川西市,川西中央保育所地域子育て支援ルーム,6660017,川西市火打1-3-5「アップルちゅうおう」,,
+兵庫県,川西市,子育て支援拠点TSUNAGARI,,川西市萩原台西3－1－2－202（萩原壱番館2階）,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1012582.html
 兵庫県,川西市,"川西中央保育所地域子育て支援ルーム
 「アップルちゅうおう」",6660017,川西市火打1-3-5,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000647.html
 兵庫県,川西市,川西南保育所地域子育て支援ルーム「アップルみなみ」,6660024,川西市久代2-12-4,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000647.html
-兵庫県,川西市,清和台おうち保育園地域子育て支援室 「まるの間」,6660142,川西市清和台東3-1-8トナリエ清和台２階,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1012605.html
+兵庫県,川西市,清和台おうち保育園地域子育て支援室 「まるの間」,6660142,川西市清和台東3-1-8 　　トナリエ清和台２階,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/1000689/1012605.html
 兵庫県,川西市,牧の台みどりこども園地域子育て支援ルーム「アップルまきのだい」,6660111,川西市大和東1-47-5,,https://www.city.kawanishi.hyogo.jp/kurashi/kosodate/hoikusyo/1000647.html
 兵庫県,川西市,総合センター,6660032,川西市日高町1-2,,http://www.city.kawanishi.hyogo.jp/shisetsu/1002909/sogo_list/index.html
-兵庫県,市川町,市川町地域子育て支援センター,6792316,神崎郡市川町東川辺1216（いちかわ東こども園隣）,,https://www.town.ichikawa.lg.jp/info/889
+兵庫県,市川町,市川町地域子育て支援センター,6792316,神崎郡市川町東川辺1216 （いちかわ東こども園隣）,,https://www.town.ichikawa.lg.jp/info/889
 兵庫県,播磨町,北部子育て支援センター,6750160,加古郡播磨町西野添2丁目10番34号,,https://www.town.harima.lg.jp/kodomo/kyoiku/kosodate/shienshisetsu/hokubu/riyoannai.html
 兵庫県,播磨町,南部子育て支援センター,6750144,加古郡播磨町北本荘3丁目2番31号,,https://www.town.harima.lg.jp/kodomo/kyoiku/kosodate/shienshisetsu/nanbu/riyoannai.html
 兵庫県,新温泉町,新温泉町浜坂子育て支援センター,6696702,美方郡新温泉町浜坂2669番地の11,,https://www.town.shinonsen.hyogo.jp/uppdf/1743580488.pdf
 兵庫県,新温泉町,新温泉町温泉子育て支援センター,6696821,美方郡新温泉町湯1685番地の137(ゆめっこ認定こども園内）,,https://www.town.shinonsen.hyogo.jp/uppdf/1743580488.pdf
-兵庫県,明石市,あかし子育て支援センター,6730891,明石市大明石町1丁目6番1号　　パピオスあかし5階,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
+兵庫県,明石市,あかし子育て支援センター,6730891,明石市大明石町1丁目6番1号 パピオスあかし5階,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
 兵庫県,明石市,子育て支援センター おおくぼ,6740068,明石市大久保町ゆりのき通1丁目4番地の7 (明石こどもセンター内）,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
-兵庫県,明石市,子育て支援センターあかし西,6740092,明石市二見町東二見1836番地の1　　ふれあいプラザあかし西　1階,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
-兵庫県,明石市,子育て支援センターうおずみ,6740083,明石市魚住町住吉1-1-16,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
-兵庫県,明石市,子育て支援センターにしあかし,6730005,明石市小久保1丁目4-7　　メゾン西明石1階,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
-兵庫県,朝来市,おやこるーむ（枚田みのり保育園）,6695261,朝来市和田山町枚田1622番地,,https://k-fukushikai.com/minori/about/#oyako
+兵庫県,明石市,子育て支援センター　あかし西,6740092,明石市二見町東二見1836番地の1 ふれあいプラザあかし西　1階,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
+兵庫県,明石市,子育て支援センター　うおずみ,6740083,明石市魚住町住吉1-1-16,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
+兵庫県,明石市,子育て支援センター　にしあかし,6730005,明石市小久保1丁目4-7 メゾン西明石1階,,https://www.city.akashi.lg.jp/kodomo/kosodatesien/siencenter.html
+兵庫県,朝来市,おやこるーむ（枚田みのり保育園）,6695261,朝来市和田山町枚田1649番地,,https://k-fukushikai.com/minori/about/#oyako
 兵庫県,朝来市,さくらんぼるーむ（やなせこども園）,6695103,朝来市山東町矢名瀬町772番地,,http://www.yanasehoikuen.jp/event/
 兵庫県,朝来市,なかよし広場（照福こども園）,6695132,朝来市山東町溝黒123番地1,,http://syoufuku.org/nakayoshi/
 兵庫県,朝来市,ひまわりひろば（ひまわりこども園）,6695201,朝来市和田山町和田山372番地1,,https://himawari-kodomoen.ed.jp/
-兵庫県,朝来市,朝来市和田山子育て学習センター,6695213,朝来市和田山町玉置824番地1,,https://www.city.asago.hyogo.jp/site/kosodate/15449.html#wadayama
-兵庫県,朝来市,朝来市山東子育て学習センター,6695192,朝来市山東町楽音寺95番地山東支所内,,https://www.city.asago.hyogo.jp/site/kosodate/15449.html#santou
+兵庫県,朝来市,朝来市和田山子育て学習センター,6695213,朝来市和田山町玉置824番地1 （和田山生涯学習センター内）,,https://www.city.asago.hyogo.jp/site/kosodate/15449.html#wadayama
+兵庫県,朝来市,朝来市山東子育て学習センター,6695152,朝来市山東町楽音寺95番地 （山東支所３階）,,https://www.city.asago.hyogo.jp/site/kosodate/15449.html#santou
 兵庫県,朝来市,朝来市朝来子育て学習センター,6793441,朝来市羽渕390番地,,https://www.city.asago.hyogo.jp/site/kosodate/15449.html#asago
 兵庫県,朝来市,朝来市生野子育て学習センター,6793301,朝来市生野町口銀谷418番地4,,https://www.city.asago.hyogo.jp/site/kosodate/15449.html#ikuno
-兵庫県,洲本市,五色すこやか子育てセンター,6561301,伊丹商工プラザ5階　男女共同参画センター（ここいろ）内,,https://www.city.sumoto.lg.jp/site/gosikisukoyaka/
-兵庫県,洲本市,洲本子育て学習センター,6560024,洲本市山手3丁目3-2（洲本中央公民館内）,,https://www.city.sumoto.lg.jp/site/sumotokosodate/
+兵庫県,洲本市,五色すこやか子育てセンター,6561301,洲本市五色町都志170 （五色中央公民館内）,,https://www.city.sumoto.lg.jp/site/gosikisukoyaka/
+兵庫県,洲本市,洲本子育て学習センター,6560024,洲本市山手3丁目3-2 （洲本中央公民館内）,,https://www.city.sumoto.lg.jp/site/sumotokosodate/
 兵庫県,淡路市,一宮子育て学習センター,6561503,淡路市遠田1940番地,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
 兵庫県,淡路市,北淡子育て学習センター,6561711,淡路市富島1388番地,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
-兵庫県,淡路市,岩屋子育て学習センター,6562401,淡路市岩屋1514-番地18岩屋保健センター内,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
-兵庫県,淡路市,東浦子育て学習センター,6562311,淡路市久留麻243番地3　東浦事務所西庁舎1階,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
-兵庫県,淡路市,津名子育て学習センター,6562131,淡路市志筑1600番地1　津名ふれあいセンター内,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
+兵庫県,淡路市,岩屋子育て学習センター,6562401,淡路市岩屋1514番地18 岩屋保健センター2階,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
+兵庫県,淡路市,東浦子育て学習センター,6562311,淡路市久留麻243番地3 東浦事務所西庁舎1階,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
+兵庫県,淡路市,津名子育て学習センター,6562131,淡路市志筑1600番地1 津名ふれあいセンター1階,,https://www.city.awaji.lg.jp/soshiki/kosodate/20140408.html
 兵庫県,猪名川町,ほしのこ広場,6660262,川辺郡猪名川町伏見台1-1-70,,https://e-akane.com/tanabata/childcare/
 兵庫県,猪名川町,子育てサロン（YMCAしろがね保育園）,6660257,川辺郡猪名川町白金3丁目2-1,,https://osakaymca.ac.jp/kinder/kodomoen/about/shirogane_kids_park.html#salon
 兵庫県,猪名川町,猪名川町子育て支援センター,6660243,川辺郡猪名川町柏梨田字イクシ124-1,,https://www.town.inagawa.lg.jp/kosodate_kyoiku/shisetsu/1/index.html
 兵庫県,相生市,相生市子育て学習センター,6780071,相生市緑ヶ丘4丁目5-5（こども学習センター内）,,https://www.city.aioi.lg.jp/site/kosodategakusyu/
-兵庫県,神崎郡神河町,神河町子育て学習事業おひさま教室,6793103,神崎郡神河町比延5番地の2（大河内保健福祉センター内）,,
-兵庫県,神戸市,drop in あいあい,6580081,神戸市東灘区田中町5丁目３－１８　３Ｆ,,
-兵庫県,神戸市,あさひ児童館,6550007,神戸市西区桜が丘東町1-3-1,,https://www.asahi-jidokan.jp/
+兵庫県,神戸市,あさひ児童館,6512225,神戸市西区桜が丘東町1-3-1,,https://www.asahi-jidokan.jp/
 兵庫県,神戸市,おやこふらっとひろば中央,6500031,神戸市中央区東町115番地中央区役所３階,,https://daiji-family-oyako.com/
 兵庫県,神戸市,おやこふらっとひろば兵庫,6520032,神戸市兵庫区荒田町1-21-1兵庫区役所６階,,https://www.city.kobe.lg.jp/e65168/kuyakusho/hyogoku/kosodate/oyakofurattohiroba2.html
 兵庫県,神戸市,おやこふらっとひろば北,6511111,神戸市北区鈴蘭台北町1-9-1北区役所５階,,https://www.city.kobe.lg.jp/f95288/kuyakusho/kitaku/kosodate/kosodate/frattohiroba.html
@@ -173,7 +162,7 @@
 兵庫県,神戸市,おやこふらっとひろば須磨,6540022,神戸市須磨区大黒町4-1-1須磨区役所２階,,https://murasame-kobe.com/oyakofurattohiroba
 兵庫県,神戸市,からと児童館,6511332,神戸市北区唐櫃台2-38-1,,更新中
 兵庫県,神戸市,こべっこあそびひろば・六甲アイランド,6580032,神戸市東灘区向洋町中2-9-1神戸ファッションプラザ3階,,https://kobekko-rokko.rsvsys.jp/
-兵庫県,神戸市,こべっこあそびひろば・岡場,6511302,神戸市北区藤原台中町1-2-2,,https://kobeko-asobi-hiroba.jp/
+兵庫県,神戸市,こべっこあそびひろば・岡場,6511302,神戸市北区藤原台中町1-2-2（エコール・リラ南館5階）,,https://kobeko-asobi-hiroba.jp/
 兵庫県,神戸市,こべっこあそびひろば・西神中央,6512273,神戸市西区糀台5丁目6-1西区文化センター１階,,https://kobeymca.org/fukushikai/facility/kobekko
 兵庫県,神戸市,すずらんだい児童館,6511114,神戸市北区鈴蘭台西町1-22-1,,https://kobe-jido.com/suzurandai/
 兵庫県,神戸市,たかとり児童館,6540037,神戸市須磨区行平町2-2-17,,https://kobeymca.org/fukushikai/facility/takatori/
@@ -204,7 +193,6 @@
 兵庫県,神戸市,原田児童館,6570838,神戸市灘区王子町2-3-1,,https://tanenokai.ed.jp/harada-jidoukan/
 兵庫県,神戸市,向洋児童館,6580032,神戸市東灘区向洋町中6-3-2,,http://kouyoujidoukan.kir.jp/
 兵庫県,神戸市,地域子育て支援事業中央（古湊保育所内）,6500026,神戸市中央区古湊通２丁目３－２３,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
-兵庫県,神戸市,地域子育て支援事業兵庫（小河保育所内）,6520895,神戸市兵庫区小河通３丁目２－14,,
 兵庫県,神戸市,地域子育て支援事業兵庫（松原保育所内）,6520881,神戸市兵庫区松原通４丁目２－２７,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
 兵庫県,神戸市,地域子育て支援事業北（鈴蘭台西町保育所内）,6511114,神戸市北区鈴蘭台西町３丁目６番２３号,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
 兵庫県,神戸市,地域子育て支援事業垂水（川原保育所内）,6550894,神戸市垂水区川原２丁目１－１３,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
@@ -213,7 +201,7 @@
 兵庫県,神戸市,地域子育て支援事業西（王塚台保育所内）,6512135,神戸市西区王塚台５丁目１１５,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
 兵庫県,神戸市,地域子育て支援事業長田（ふたば保育所内）,6530042,神戸市長田区二葉町７丁目１－３０,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
 兵庫県,神戸市,地域子育て支援事業須磨（須磨保育所内）,6540022,神戸市須磨区大黒町４丁目１－２,,https://www.city.kobe.lg.jp/a36812/kosodate/chiiki/chiiki/index.html
-兵庫県,神戸市,垂水児童館,6550893,神戸市垂水区日向1-5-1レバンテ垂水2番館4階,,https://tarumi-jidokan.jp/
+兵庫県,神戸市,垂水児童館,6550893,神戸市垂水区日向1丁目5-1　  ﾚﾊﾞﾝﾃ垂水2番館4階,,https://tarumi-jidokan.jp/
 兵庫県,神戸市,塩屋児童館,6550872,神戸市垂水区塩屋町4-3-9,,http://www.eonet.ne.jp/~shioya-jidokan/
 兵庫県,神戸市,多聞台児童館,6550007,神戸市垂水区多聞台3-9-13,,https://www.yoiko-net.jp/2561/top/
 兵庫県,神戸市,夢野児童館,6520041,神戸市兵庫区湊川町7-6-5,,https://www.kobekouyuukai.or.jp/jidokan.html
@@ -224,23 +212,20 @@
 兵庫県,神戸市,太山寺児童館,6512103,神戸市西区学園西町5-2-3,,http://kobeymca.org/fukushikai/facility/taisanji/
 兵庫県,神戸市,好徳児童館,6511623,神戸市北区淡河町野瀬字新田468-2,,https://www.yoiko-net.jp/2533/top/
 兵庫県,神戸市,妙法寺児童館,6540121,神戸市須磨区妙法寺字毘沙門山1,,https://myohoji-jidoukan.mochiko.info/
-兵庫県,神戸市,子育てひろばmamamo,6540012,神戸市須磨区飛松町２丁目１－１０,,
-兵庫県,神戸市,子育てひろばうららKOBE,6530862,神戸市長田区西山町2-3-3（神戸教育短期大学内）,,https://www.shukugawa-c.ac.jp/childcare/urarakobe/
+兵庫県,神戸市,子育てひろば うららKOBE,6530862,神戸市長田区西山町2-3-3（神戸教育短期大学内）,,https://www.shukugawa-c.ac.jp/childcare/urarakobe/
 兵庫県,神戸市,子育てサロン「まなびー」,6512113,神戸市西区伊川谷町有瀬518（神戸学院大学有瀬キャンパス１４号館３階）,,https://www.kobegakuin.ac.jp/social_contribution/kosodate/
-兵庫県,神戸市,子育てサロンまなびー,6512180,神戸市西区伊川谷町有瀬518（神戸学院大学有瀬キャンパス１４号館３階）,,
 兵庫県,神戸市,子育て広場 ときわんクニヅカ,6530041,神戸市長田区久保町6-1-1（アスタくにづか４番館２階）,,http://kit.kobe-tokiwa.ac.jp
 兵庫県,神戸市,子育て広場そよ風,6511515,神戸市北区上津台３丁目１９－２６,,https://soyokaze-kozudai.wixsite.com/oyako
-兵庫県,神戸市,子育て支援ひろば「すくすく」,6511111,神戸市北区鈴蘭台北町7丁目13-1（神戸親和女子大学内）,,https://www.kobe-shinwa.ac.jp/ckc/sukusuku/
+兵庫県,神戸市,子育て支援 コラボカフェ,6512103,神戸市西区学園西町3丁目4番地（神戸市看護大学内）,,https://www.kobe-ccn.ac.jp/be_related/activity/collabo_cafe/
+兵庫県,神戸市,子育て支援ひろば「すくすく」,6511111,神戸市北区鈴蘭台北町7丁目13-1（神戸親和大学内）,,https://www.kobe-shinwa.ac.jp/ckc/sukusuku/
 兵庫県,神戸市,子育て支援ひろば「まつぼっくり」,6570015,神戸市灘区篠原伯母野山町1丁目2-1（神戸松蔭大学内）,,https://www.shoin.ac.jp/contribution/area/matsu.html
-兵庫県,神戸市,子育て支援コラボカフェ,6512103,神戸市西区学園西町3丁目4番地（神戸市看護大学内）,,https://www.kobe-ccn.ac.jp/be_related/activity/collabo_cafe/
-兵庫県,神戸市,子育て支援センター「ときわんノエスタ」,6520855,神戸市兵庫区御崎町1-2-2（ノエビアスタジアム神戸内VISSELLOUNGE内）,,https://www.noevir-stadium.jp/guide/tokiwan_noesta/
+兵庫県,神戸市,子育て支援センター「ときわんノエスタ」,6520855,神戸市兵庫区御崎町1-2-2（ノエビアスタジアム神戸内VISSEL LOUNGE内）,,https://www.noevir-stadium.jp/guide/tokiwan_noesta/
 兵庫県,神戸市,子育て支援センター「ときわんモトロク」,6500022,神戸市中央区元町通6-3-19（元町レジデンス１階）,,https://www.kobe-tokiwa.ac.jp/univ/education/tokiwanmotoroku.html
-兵庫県,神戸市,子育て支援フリースペースまつぼっくり,6570015,神戸市灘区篠原伯母野山町1丁目2-1（神戸松蔭女子学院大学内）,,
-兵庫県,神戸市,子育て総合支援施設 ときわんモトロク,6500022,神戸市中央区元町通6-3-19,,
 兵庫県,神戸市,小束山児童館,6550002,神戸市垂水区小束山5-868-614,,https://hiro852yasugi9.wixsite.com/kotsuka
 兵庫県,神戸市,小部児童館,6511111,神戸市北区鈴蘭台北町7-11-40,,https://okkouyama-fukushikai.or.jp/obu/
 兵庫県,神戸市,岩岡児童館,6512411,神戸市西区上新地2-3-6,,https://kobe-jido.com/iwaoka/
 兵庫県,神戸市,平野児童館,6520015,神戸市兵庫区下祇園町6-22,,https://hirano.kyoseikai.org/
+兵庫県,神戸市,平野児童館,6512265,神戸市西区平野町宮前字下辻石223,,http://www.hirano.or.jp/hirano_jidokan/index.html
 兵庫県,神戸市,広陵児童館,6511212,神戸市北区筑紫が丘2-22-11,,https://www.koryojidokan.com/
 兵庫県,神戸市,御崎児童館,6520855,神戸市兵庫区御崎町1-3-2,,https://kobe-jido.com/misaki/
 兵庫県,神戸市,御影北児童館,6580047,神戸市東灘区御影2-20-10,,https://mikagekita-jidokan.com/
@@ -265,7 +250,7 @@
 兵庫県,神戸市,枝吉児童館,6512133,神戸市西区枝吉4-26,,https://kobe-jido.com/edayoshi/
 兵庫県,神戸市,桂木児童館,6511223,神戸市北区桂木1-2-4,,https://www.kobe-okjidoukan.com/
 兵庫県,神戸市,桃山台児童館,6550854,神戸市垂水区桃山台3-25,,https://momoyamadaijidoukan.com/
-兵庫県,神戸市,桜の宮児童館,6511142,神戸市北区甲栄台2-4-1,,https://okkouyama-fukushikai.or.jp/sakuranomiya-jidoukan/
+兵庫県,神戸市,桜の宮児童館,6511142,神戸市北区甲栄台2-2-10,,https://okkouyama-fukushikai.or.jp/sakuranomiya-jidoukan/
 兵庫県,神戸市,横尾児童館,6540131,神戸市須磨区横尾1-11-2,,https://ayumi.or.jp/yokoojido/
 兵庫県,神戸市,櫨谷児童館,6512234,神戸市西区櫨谷町池谷字苗代ノ内440-1,,https://kobe-jido.com/hasetani/
 兵庫県,神戸市,池田児童館,6530814,神戸市長田区池田広町41-10,,https://kobe-jido.com/ikeda/
@@ -290,7 +275,7 @@
 兵庫県,神戸市,神の谷児童館,6540162,神戸市須磨区神の谷5-2-１,,http://www.eonet.ne.jp/~kaminotani/
 兵庫県,神戸市,神出児童館,6512313,神戸市西区神出町田井字長原34-2,,https://www.yoiko-net.jp/2573/top/
 兵庫県,神戸市,神戸市総合児童センター（こべっこランド）,6520862,兵庫県神戸市兵庫区上庄通1-1-43,,https://www.kobekko.or.jp/
-兵庫県,神戸市,神戸諏訪山児童館,6500012,神戸市中央区北長挟通4-9-5,,https://chuou-shakyo.or.jp/participation/?p=256.html
+兵庫県,神戸市,神戸諏訪山児童館,6500000,神戸市中央区北長挟通4-9-5,,https://chuou-shakyo.or.jp/participation/?p=256.html
 兵庫県,神戸市,神陵台児童館,6550043,神戸市垂水区南多聞台1-9C-101,,https://www.mikarikai.jp/sinryoudai
 兵庫県,神戸市,秋葉台児童館,6512224,神戸市西区秋葉台3-2-29,,https://www.akibadai-jidokan.jp/
 兵庫県,神戸市,竹の台児童館,6512274,神戸市西区竹の台2-20-1,,http://www.eonet.ne.jp/~takenodai/
@@ -298,7 +283,7 @@
 兵庫県,神戸市,篠原児童館,6570068,神戸市灘区篠原北町2-2-37,,https://shinohara.doho.or.jp/
 兵庫県,神戸市,籠池児童館,6510053,神戸市中央区籠池通2-1-19,,http://www.eonet.ne.jp/~kagoike/
 兵庫県,神戸市,細田児童館,6530835,神戸市長田区細田町7-1-30,,https://www.hosoda-jidoukan.com/
-兵庫県,神戸市,美賀多台児童館,6512277,神戸市西区美賀多台3-13,,http://hirano.or.jp/mikata_jidokan/index.html
+兵庫県,神戸市,美賀多台児童館,6512277,神戸市西区美賀多台3-13-1,,http://hirano.or.jp/mikata_jidokan/index.html
 兵庫県,神戸市,舞子児童館,6550048,神戸市垂水区西舞子7-30-3,,https://www.yoiko-net.jp/2553/top/
 兵庫県,神戸市,若草児童館,6540112,神戸市須磨区若草町3-14-9,,https://kobe-jido.com/wakakusa/
 兵庫県,神戸市,菅の台児童館,6540143,神戸市須磨区菅の台4-5,,http://www.eonet.ne.jp/~suganodai/
@@ -319,19 +304,18 @@
 兵庫県,神戸市,高倉台児童館,6540081,神戸市須磨区高倉台1-2-1,,更新中
 兵庫県,神戸市,髙羽児童館,6570023,神戸市灘区高羽町4-１-１,,https://takaha-youchien.ed.jp/jidokan
 兵庫県,神戸市,魚崎児童館,6580083,神戸市東灘区魚崎中町4-3-16,,https://kobe-jido.com/uozaki/
-兵庫県,神戸市,鶴甲児童館,6570011,神戸市灘区鶴甲3丁目-4-1,,http://npo-space.com/list/tsurukabutojidoukan
+兵庫県,神戸市,鶴甲児童館,6570011,神戸市灘区鶴甲3-4-1,,http://npo-space.com/list/tsurukabutojidoukan
 兵庫県,神戸市,鹿の子台児童館,6511513,神戸市北区鹿の子台北町6-34-3,,https://www.aishinkai.ne.jp/facilities/kanokodai-jidoukan/
 兵庫県,神河町,神河町児童センターきらきら館,6792413,神崎郡神河町中村29番地,,http://www.town.kamikawa.hyogo.jp/0000000635.html
 兵庫県,福崎町,東部子育て学習センター,6792204,神崎郡福崎町西田原1263番地4,,https://www.town.fukusaki.hyogo.jp/0000000975.html
 兵庫県,福崎町,福崎子育て支援センター,6792214,神崎郡福崎町福崎新448番地3,,https://www.town.fukusaki.hyogo.jp/0000000271.html
 兵庫県,福崎町,西部子育て学習センター,6792212,神崎郡福崎町福田176-1福崎町文化センター内,,https://www.town.fukusaki.hyogo.jp/0000001027.html
-兵庫県,稲美町,稲美町立子育て交流施設,6751113,加古郡稲美町岡1802番地の2　いなみっこ広場,,https://www.town.hyogo-inami.lg.jp/0000005141.html
+兵庫県,稲美町,稲美町立子育て交流施設,6751113,加古郡稲美町岡1802番地の2 いなみっこ広場,,https://www.town.hyogo-inami.lg.jp/0000005141.html
 兵庫県,芦屋市,しおさいこども園 つどいのひろば「ひとしお」,6590036,芦屋市涼風町5番2号,,https://www.yamazen-fukushikai.or.jp/shiosai/support/
 兵庫県,芦屋市,浜風あすのこども園 つどいのひろば「キオラクラブ」,6590032,芦屋市浜風町1番2号,,http://hyogo-hoiku.jp/category/hamakaze
 兵庫県,芦屋市,芦屋市子育てセンター つどいのひろば「むくむく」,6590051,芦屋市呉川町14番9号　芦屋市福祉センター内,,http://www.city.ashiya.lg.jp/kodomo/kosodatec/kosodatec.html
 兵庫県,芦屋市,芦屋市子育てセンター つどいのひろば「バンビ」,6590026,芦屋市西蔵町13番5号　市立西蔵こども園内,,http://www.city.ashiya.lg.jp/kodomo/kosodatec/kosodatec.html
 兵庫県,西宮市,あいあいひろば,6620074,西宮市石刎町19-13,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
-兵庫県,西宮市,あいあい広場,6620074,西宮市石刎町19-13,,
 兵庫県,西宮市,つぼみのひろば,6638014,西宮市林田町8-42,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,ふたばっこ,6638163,西宮市甲子園三保町6-10,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,ほおずき子育てひろば,6638113,西宮市甲子園口6丁目1-36,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
@@ -345,29 +329,27 @@
 兵庫県,西宮市,段上児童館「子育てひろば」,6638006,西宮市段上町2丁目10-23,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,津門児童館「子育てひろば」,6638247,西宮市津門稲荷町5-23,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,浜脇児童館「子育てひろば」,6620941,西宮市浜脇町3-13,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
-兵庫県,西宮市,西宮市立子育て総合センター,6638184,西宮市津田町3-40,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
-兵庫県,西宮市,西宮市立香櫨園地域子育て支援施設,6620952,西宮市中浜町3-32（香櫨園小学校内）,,
-兵庫県,西宮市,西宮市立高木北地域子育て支援施設,6638024,西宮市薬師町7-5（高木北小学校内）,,
+兵庫県,西宮市,西宮市立子育て総合センター,6620853,西宮市津田町3-40,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,親と子のほっとスペース「たんぽっぽひろば」,6620064,西宮市雲井町8-43,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,"関西学院子どもセンター""さぽさぽ""",6620827,西宮市岡田山7-54,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,香櫨園子育てひろば,6620952,西宮市中浜町3-32（香櫨園小学校内）,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,高木北子育てひろば,6638024,西宮市薬師町7-5（高木北小学校内東門側）,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西宮市,高須児童センター「子育てひろば」,6638141,西宮市高須町2丁目1-35,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
-兵庫県,西宮市,鳴尾児童館「子育てひろば」,6638184,西宮市笠屋町19-1,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
+兵庫県,西宮市,鳴尾児童館「子育てひろば」,6638136,西宮市笠屋町19-1,,https://www.nishi.or.jp/access/kosodatehoiku/hoiku/hiroba.html
 兵庫県,西脇市,西脇市こどもプラザ,6770057,西脇市野村町茜が丘16番地の1（茜が丘複合施設「Ｍiraie」内）,,http://www.city.nishiwaki.lg.jp/miraie/kodomoplaza/index.html
 兵庫県,西脇市,西脇市こどもプラザサテライト「あいあいランド」,6770015,西脇市西脇790番地の14（播磨内陸生活文化総合センター内）,,http://www.city.nishiwaki.lg.jp/miraie/kodomoplaza/index.html
 兵庫県,西脇市,西脇市こどもプラザサテライト「へそっこランド」,6790303,西脇市黒田庄町前坂2140（黒田庄福祉センター内）,,http://www.city.nishiwaki.lg.jp/miraie/kodomoplaza/index.html
 兵庫県,西脇市,西脇市こどもプラザサテライト「わくわくランド」,6770033,西脇市鹿野町720番地の1（こみせん比也野内）,,http://www.city.nishiwaki.lg.jp/miraie/kodomoplaza/index.html
-兵庫県,豊岡市,豊岡市立但東子育てセンター,6680393,豊岡市但東町出合150,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/tantokc/index.html
-兵庫県,豊岡市,豊岡市立出石子育てセンター,6680292,豊岡市出石町内町1,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/izushikc/index.html
-兵庫県,豊岡市,豊岡市立城崎子育てセンター,6696195,豊岡市城崎町桃島1057-1,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/kinosakikc/index.html
-兵庫県,豊岡市,豊岡市立子育て総合センター,6680031,豊岡市大手町4-5,,https://www.city.toyooka.lg.jp/kosodatesogo/index.html
-兵庫県,豊岡市,豊岡市立日高子育てセンター,6695391,豊岡市日高町祢布920,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/hidakakc/index.html
-兵庫県,豊岡市,豊岡市立竹野子育てセンター,6696211,豊岡市竹野町和田389-1,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/takenokc/index.html
+兵庫県,豊岡市,豊岡市立但東子育てセンター,6680311,豊岡市但東町出合150,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/tantokc/index.html
+兵庫県,豊岡市,豊岡市立出石子育てセンター,6680214,豊岡市出石町内町1,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/izushikc/index.html
+兵庫県,豊岡市,豊岡市立城崎子育てセンター,6696102,豊岡市城崎町桃島1057-1,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/kinosakikc/index.html
+兵庫県,豊岡市,豊岡市立子育て総合センター,6680031,豊岡市大手町4-5（アイティ4階）,,https://www.city.toyooka.lg.jp/kosodatesogo/index.html
+兵庫県,豊岡市,豊岡市立日高子育てセンター,6695305,豊岡市日高町祢布920,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/hidakakc/index.html
+兵庫県,豊岡市,豊岡市立竹野子育てセンター,6696221,豊岡市竹野町須谷1478,,https://www.city.toyooka.lg.jp/kosodate/kosodatecenter/takenokc/index.html
 兵庫県,赤穂市,赤穂市子育て学習センター,6780233,赤穂市加里屋中洲3丁目55番地（赤穂市民会館３階）,,https://www.city.ako.lg.jp/edu/shougai/kosodate.html
-兵庫県,養父市,子育て支援センターたいよう,6670024,養父市八鹿町朝倉1258-1,,http://yabushi-taiyo.com
-兵庫県,香美町,小代子育て・子育ち支援センター,6671543,美方郡香美町小代区忠宮287　小代高齢者生活支援センター内,,http://www.town.mikata-kami.lg.jp/www/contents/1109573725281/index.html
-兵庫県,香美町,香住子育て・子育ち支援センター,6696545,美方郡香美町香住区森31-1,,http://www.town.mikata-kami.lg.jp/www/contents/1559096522560/index.html
+兵庫県,養父市,子育て支援センター　たいよう,6670024,養父市八鹿町朝倉1258-1,,http://yabushi-taiyo.com
+兵庫県,香美町,小代子育て・子育ち支援センター,6671543,美方郡香美町小代区忠宮287 小代高齢者生活支援センター内,,http://www.town.mikata-kami.lg.jp/www/contents/1109573725281/index.html
+兵庫県,香美町,香住子育て・子育ち支援センター,6696545,美方郡香美町香住区森31-1 香住地域福祉センター内,,http://www.town.mikata-kami.lg.jp/www/contents/1559096522560/index.html
 兵庫県,香美町,高井子育て・子育ち支援センター,6671323,美方郡香美町村岡区耀山7-2,,http://www.town.mikata-kami.lg.jp/www/contents/1109231298691/index.html
 兵庫県,高砂市,高砂市子育て支援センター,6760023,高砂市高砂町松波町440番地の35（ユーアイ帆っとセンター内）,,https://www.city.takasago.lg.jp/soshikikarasagasu/kosodateshienka/center/2993.html
 兵庫県,高砂市,高砂市西部子育て支援センター,6760082,高砂市曽根町2301番地の35 （曽根地域交流センター内）,,https://www.city.takasago.lg.jp/soshikikarasagasu/kosodateshienka/center/3118.html
