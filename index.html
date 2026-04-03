@@ -246,7 +246,7 @@ document.getElementById('search').addEventListener('input', applyFilters);
 
 // Load About content
 Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
-<p>全47都道府県 / 7,988件（令和6〜7年度時点のデータを中心に収集）</p>
+<p>全47都道府県 / 8,290件（令和6〜7年度時点のデータを中心に収集）</p>
 <h2>CSV形式</h2>
 <p>各ファイルのカラム: <code>pref, city, name, zip, addr, phone, note</code>（UTF-8 BOM付き）</p>
 <h3>郵便番号（zip）補完について</h3>
@@ -346,9 +346,9 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <tr>
 <td>千葉県</td>
 <td style="text-align: right;">335</td>
-<td style="text-align: right;">305</td>
-<td style="text-align: right;">91%</td>
-<td>△ 県公開PDF（R5.12時点）から42市町村184件を追記（2026-04-03）</td>
+<td style="text-align: right;">309</td>
+<td style="text-align: right;">92%</td>
+<td>△ 県公開PDF（R5.12時点）から42市町村188件を追記（2026-04-03）</td>
 </tr>
 <tr>
 <td>東京都</td>
@@ -374,9 +374,9 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <tr>
 <td>富山県</td>
 <td style="text-align: right;">82</td>
-<td style="text-align: right;">73</td>
-<td style="text-align: right;">89%</td>
-<td></td>
+<td style="text-align: right;">74</td>
+<td style="text-align: right;">90%</td>
+<td>△ 舟橋村を追記（2026-04-03）</td>
 </tr>
 <tr>
 <td>石川県</td>
@@ -444,16 +444,16 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <tr>
 <td>京都府</td>
 <td style="text-align: right;">271</td>
-<td style="text-align: right;">129</td>
-<td style="text-align: right;">48%</td>
-<td>△ 京都市つどいの広場41件を追記（2026-04-03）</td>
+<td style="text-align: right;">258</td>
+<td style="text-align: right;">95%</td>
+<td>△ 京都市つどいの広場41件＋児童館129件を追記（2026-04-03）</td>
 </tr>
 <tr>
 <td>大阪府</td>
 <td style="text-align: right;">472</td>
-<td style="text-align: right;">185</td>
-<td style="text-align: right;">39%</td>
-<td>△ 42市町村のうち27市町を施設個票へ置換（2026-03-07、残15市町は継続調査）</td>
+<td style="text-align: right;">358</td>
+<td style="text-align: right;">76%</td>
+<td>△ 大阪府オープンデータCSV＋枚方市公式から173件を追記（2026-04-03）</td>
 </tr>
 <tr>
 <td>兵庫県</td>
@@ -563,9 +563,9 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <tr>
 <td>熊本県</td>
 <td style="text-align: right;">119</td>
-<td style="text-align: right;">118</td>
-<td style="text-align: right;">99%</td>
-<td></td>
+<td style="text-align: right;">124</td>
+<td style="text-align: right;">104%</td>
+<td>△ 産山村・津奈木町等6町村を追記（2026-04-03）</td>
 </tr>
 <tr>
 <td>大分県</td>
@@ -584,16 +584,16 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <tr>
 <td>鹿児島県</td>
 <td style="text-align: right;">119</td>
-<td style="text-align: right;">101</td>
-<td style="text-align: right;">85%</td>
-<td></td>
+<td style="text-align: right;">108</td>
+<td style="text-align: right;">91%</td>
+<td>△ 阿久根市・南さつま市等6市町村を追記（2026-04-03）</td>
 </tr>
 <tr>
 <td>沖縄県</td>
 <td style="text-align: right;">95</td>
-<td style="text-align: right;">57</td>
-<td style="text-align: right;">60%</td>
-<td>△ 宜野湾市・うるま市・宮古島市・西原町・読谷村・北中城村・与那原町・北谷町・金武町を追記（2026-04-03）</td>
+<td style="text-align: right;">61</td>
+<td style="text-align: right;">64%</td>
+<td>△ 宜野湾市・うるま市・宮古島市等＋今帰仁村・本部町・恩納村・久米島町を追記（2026-04-03）</td>
 </tr>
 </tbody>
 </table>
@@ -604,9 +604,7 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <p>未掲載市町村はほぼ解消（2026-04-03）。県公開PDF「地域子育て支援拠点一覧（R5.12時点）」から42市町村184件を追記。
 ※ 睦沢町・長生村・白子町・長南町はPDF内にエントリなし（拠点未設置または把握外の可能性）。</p>
 <h3>大阪府</h3>
-<p>未掲載市町村は解消（2026-03-07）。
-※ 42市町村の窓口ベース追記分について、2026-03-07に大阪府オープンデータ「地域子育て支援拠点一覧」で<strong>27市町</strong>を施設個票（名称/住所/電話）へ置換。
-※ <strong>残15市町</strong>（千早赤阪村、堺市、大阪狭山市、太子町、岬町、岸和田市、島本町、摂津市、枚方市、柏原市、河南町、能勢町、豊中市、豊能町、門真市）は同オープンデータ未収載のため、市町村一次ソースで継続調査。</p>
+<p>大阪府オープンデータCSV（data.bodik.jp）から158件＋枚方市公式から15件を追記（2026-04-03）。カバー率39%→76%。</p>
 <h3>沖縄県（16市町村が未掲載）</h3>
 <p>県の一覧が未公開。宜野湾市・うるま市・宮古島市・西原町・読谷村・北中城村・与那原町・北谷町・金武町を追記（2026-04-03）。以下が未掲載：</p>
 <p>国頭村、大宜味村、東村、今帰仁村、本部町、恩納村、宜野座村、伊江村、渡嘉敷村、座間味村、粟国村、渡名喜村、久米島町、多良間村、竹富町、与那国町</p>
@@ -783,13 +781,13 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <td>京都府</td>
 <td>京都府公式「未来っ子ひろば」地域子育て支援拠点（<code>pref.kyoto.jp</code>）＋京都市公式</td>
 <td>現行公開ページ</td>
-<td>有効（府公式一次ソースへ更新）。ただし当CSVは88件でCFA271件に未達、未収載分の追加調査が必要</td>
+<td>有効（府公式＋京都市児童館一覧から258件収録、CFA271件に対し95%カバー）</td>
 </tr>
 <tr>
 <td>大阪府</td>
-<td>大阪市公式PDF＋大阪府公式窓口ページ（<code>pref.osaka.lg.jp</code>）</td>
-<td>R7.10（大阪市PDF）</td>
-<td>要継続調査（42市町村は窓口情報）</td>
+<td>大阪府オープンデータCSV（<code>data.bodik.jp</code>）＋大阪市公式PDF＋枚方市公式</td>
+<td>R8.2（オープンデータ更新）</td>
+<td>有効（358件収録、CFA472件に対し76%カバー）</td>
 </tr>
 <tr>
 <td>兵庫県</td>
@@ -917,8 +915,8 @@ Promise.resolve(`<h1>都道府県別 地域子育て支援拠点データ</h1>
 <ul>
 <li><strong>千葉県</strong>: 県の統合一覧が削除済みで、市単位収集に依存。未掲載42市町村の一次ソース探索が必要。  </li>
 <li><strong>三重県</strong>: 県公式一次ソースへ更新済みだが、当CSVは124件でCFA196件に未達。未収載分の一次ソース補完が必要。  </li>
-<li><strong>京都府</strong>: 府公式一次ソースへ更新済みだが、当CSVは88件でCFA271件に未達。未収載分の一次ソース補完が必要。  </li>
-<li><strong>大阪府</strong>: 42市町村分は「入所相談窓口」由来で拠点個票ではないため、精緻化が必要。  </li>
+<li><strong>京都府</strong>: 京都市児童館129件＋つどいの広場41件を追記し258件（95%カバー）。  </li>
+<li><strong>大阪府</strong>: 大阪府オープンデータCSV＋枚方市公式から173件を追記し358件（76%カバー）。堺市等の個別補完は継続調査。  </li>
 <li><strong>茨城県</strong>: 9町村分は担当窓口由来で、拠点名・住所・電話の厳密化が必要。  </li>
 <li><strong>沖縄県</strong>: 県統合一覧未公開。個別収集運用のため未掲載25市町村の補完が必要。</li>
 </ul>`).then(html => {
